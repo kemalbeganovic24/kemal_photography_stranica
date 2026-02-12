@@ -19,6 +19,10 @@ import msstravnik from '../assets/msstravnikcover.jpg'
 import emanulah from '../assets/cover_emanulah.jpg'
 import nermin from '../assets/nermincover.jpg'
 import graz from '../assets/grazcover.jpg'
+import dzejlanakumstvo from '../assets/cover_kumstvodzejlana.jpg'
+import aras from '../assets/cover_aras.jpg'
+import ajnai from '../assets/cover_ajnai.jpg'
+import enesdanijela from '../assets/cover_naslovna_enes.jpg'
 
 
 
@@ -274,11 +278,161 @@ import slikagraz29 from '../assets/graz/IMG_2217.jpg'
 import slikagraz30 from '../assets/graz/IMG_2219.jpg'
 import slikagraz31 from '../assets/graz/IMG_2220.jpg'
 
+//Dzejlan-kumstvo
+import slikadzejlana from '../assets/kumstvo/dzejlana0.jpg'
+import slikadzejlana1 from '../assets/kumstvo/dzejlana1.jpg'
+import slikadzejlana2 from '../assets/kumstvo/dzejlana2.jpg'
+import slikadzejlana3 from '../assets/kumstvo/dzejlana3.jpg'
+import slikadzejlana4 from '../assets/kumstvo/dzejlana4.jpg'
+import slikadzejlana5 from '../assets/kumstvo/dzejlana5.jpg'
+import slikadzejlana6 from '../assets/kumstvo/dzejlana6.jpg'
+import slikadzejlana7 from '../assets/kumstvo/dzejlana7.jpg'
+import slikadzejlana8 from '../assets/kumstvo/dzejlana8.jpg'
+import slikadzejlana9 from '../assets/kumstvo/dzejlana9.jpg'
+import slikadzejlana10 from '../assets/kumstvo/dzejlana10.jpg'
+import slikadzejlana11 from '../assets/kumstvo/dzejlana11.jpg'
+import slikadzejlana12 from '../assets/kumstvo/dzejlana12.jpg'
+import slikadzejlana20 from '../assets/kumstvo/dzejlana13.jpg'
+import slikadzejlana13 from '../assets/kumstvo/dzejlana14.jpg'
+import slikadzejlana14 from '../assets/kumstvo/dzejlana15.jpg'
+import slikadzejlana15 from '../assets/kumstvo/dzejlana16.jpg'
+import slikadzejlana16 from '../assets/kumstvo/dzejlana17.jpg'
+import slikadzejlana17 from '../assets/kumstvo/dzejlana18.jpg'
+import slikadzejlana18 from '../assets/kumstvo/dzejlana19.jpg'
+import slikadzejlana19 from '../assets/kumstvo/dzejlana20.jpg'
+
+//Zaručivanje Aras
+import slikaaras from '../assets/aras/aras1.jpg'
+import slikaaras1 from '../assets/aras/aras2.jpg'
+import slikaaras2 from '../assets/aras/aras3.jpg'
+import slikaaras3 from '../assets/aras/aras4.jpg'
+import slikaaras4 from '../assets/aras/aras5.jpg'
+
+//Ajna Islamovic svadba
+import slikaajnai from '../assets/ajna_islamovic/ajnai.jpg'
+import slikaajnai1 from '../assets/ajna_islamovic/ajnai1.jpg'
+import slikaajnai2 from '../assets/ajna_islamovic/ajnai2.jpg'
+import slikaajnai3 from '../assets/ajna_islamovic/ajnai3.jpg'
+import slikaajnai4 from '../assets/ajna_islamovic/ajnai4.jpg'
+import slikaajnai5 from '../assets/ajna_islamovic/ajnai5.jpg'
+import slikaajnai6 from '../assets/ajna_islamovic/ajnai6.jpg'
+import slikaajnai7 from '../assets/ajna_islamovic/ajnai7.jpg'
+import slikaajnai8 from '../assets/ajna_islamovic/ajnai8.jpg'
+
+//Enes Danijela
+import slikaenesdanijela from '../assets/enes_danijela/enesdanijela0.jpg'
+import slikaenesdanijela1 from '../assets/enes_danijela/enesdanijela1.jpg'
+import slikaenesdanijela2 from '../assets/enes_danijela/enesdanijela2.jpg'
+import slikaenesdanijela3 from '../assets/enes_danijela/enesdanijela3.jpg'
+import slikaenesdanijela4 from '../assets/enes_danijela/enesdanijela4.jpg'
+import slikaenesdanijela5 from '../assets/enes_danijela/enesdanijela5.jpg'
+import slikaenesdanijela6 from '../assets/enes_danijela/enesdanijela6.jpg'
+import slikaenesdanijela7 from '../assets/enes_danijela/enesdanijela7.jpg'
+import slikaenesdanijela8 from '../assets/enes_danijela/enesdanijela8.jpg'
+import slikaenesdanijela9 from '../assets/enes_danijela/enesdanijela9.jpg'
+import slikaenesdanijela10 from '../assets/enes_danijela/enesdanijela10.jpg'
+import slikaenesdanijela11 from '../assets/enes_danijela/enesdanijela11.jpg'
+import slikaenesdanijela12 from '../assets/enes_danijela/enesdanijela12.jpg'
+import slikaenesdanijela13 from '../assets/enes_danijela/enesdanijela13.jpg'
+import slikaenesdanijela15 from '../assets/enes_danijela/enesdanijela15.jpg'
+
 const EventDetail = () => {
     const { eventId } = useParams();
 
     // Mock event data - in a real app, this would come from an API
     const eventData = {
+        'enes_danijela': {
+            title: 'Enes & Danijela',
+            description: '',
+            date: '07.02.2026.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: enesdanijela,
+            images: [
+                { id: '1', src: slikaenesdanijela, alt: 'Wedding ceremony' },
+                { id: '2', src: slikaenesdanijela1, alt: 'Bride and groom portrait' },
+                { id: '3', src: slikaenesdanijela2, alt: 'Wedding details' },
+                { id: '4', src: slikaenesdanijela3, alt: 'Wedding party' },
+                { id: '5', src: slikaenesdanijela4, alt: 'First dance' },
+                { id: '6', src: slikaenesdanijela5, alt: 'First dance' },
+                { id: '7', src: slikaenesdanijela6, alt: 'First dance' },
+                { id: '8', src: slikaenesdanijela7, alt: 'First dance' },
+                { id: '9', src: slikaenesdanijela8, alt: 'First dance' },
+                { id: '10', src: slikaenesdanijela9, alt: 'First dance' },
+                { id: '11', src: slikaenesdanijela10, alt: 'First dance' },
+                { id: '13', src: slikaenesdanijela11, alt: 'First dance' },
+                { id: '14', src: slikaenesdanijela12, alt: 'First dance' },
+                { id: '15', src: slikaenesdanijela13, alt: 'First dance' },
+                { id: '16', src: slikaenesdanijela15, alt: 'First dance' },
+
+
+            ],
+        },
+        'Ajna_islamovic_slike': {
+            title: 'Ajna Islamović - portret sesija',
+            description: '',
+            date: '06.02.2026.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: ajnai,
+            images: [
+                { id: '1', src: slikaajnai, alt: 'Wedding ceremony' },
+                { id: '2', src: slikaajnai1, alt: 'Bride and groom portrait' },
+                { id: '3', src: slikaajnai2, alt: 'Wedding details' },
+                { id: '4', src: slikaajnai3, alt: 'Wedding party' },
+                { id: '5', src: slikaajnai4, alt: 'First dance' },
+                { id: '6', src: slikaajnai5, alt: 'First dance' },
+                { id: '7', src: slikaajnai6, alt: 'First dance' },
+                { id: '8', src: slikaajnai7, alt: 'First dance' },
+                { id: '9', src: slikaajnai8, alt: 'First dance' },
+
+
+            ],
+        },
+        'Zarucivanje_aras': {
+            title: 'Galerija slika iz Graza.',
+            description: '',
+            date: '25.01.2026.',
+            location: 'Travnik, BiH',
+            coverImage: aras,
+            images: [
+                { id: '1', src: slikaaras, alt: 'Wedding ceremony' },
+                { id: '2', src: slikaaras1, alt: 'Bride and groom portrait' },
+                { id: '4', src: slikaaras2, alt: 'Wedding details' },
+                { id: '5', src: slikaaras3, alt: 'Wedding party' },
+                { id: '6', src: slikaaras4, alt: 'Wedding party' },
+
+            ],
+        },
+
+        'Kumstvo_Dzejalana': {
+            title: 'Galerija slika kumstva.',
+            description: '',
+            date: '04.01.2026.',
+            location: 'Restoran Bistrovo Kruščica Vitez, BiH',
+            coverImage: dzejlanakumstvo,
+            images: [
+                { id: '1', src: slikadzejlana, alt: 'Wedding ceremony' },
+                { id: '2', src: slikadzejlana1, alt: 'Bride and groom portrait' },
+                { id: '4', src: slikadzejlana2, alt: 'Wedding details' },
+                { id: '5', src: slikadzejlana3, alt: 'Wedding party' },
+                { id: '6', src: slikadzejlana4, alt: 'First dance' },
+                { id: '7', src: slikadzejlana5, alt: 'First dance' },
+                { id: '8', src: slikadzejlana6, alt: 'First dance' },
+                { id: '9', src: slikadzejlana7, alt: 'First dance' },
+                { id: '11', src: slikadzejlana8, alt: 'First dance' },
+                { id: '12', src: slikadzejlana9, alt: 'First dance' },
+                { id: '14', src: slikadzejlana10, alt: 'First dance' },
+                { id: '15', src: slikadzejlana11, alt: 'First dance' },
+                { id: '16', src: slikadzejlana12, alt: 'First dance' },
+                { id: '17', src: slikadzejlana13, alt: 'First dance' },
+                { id: '18', src: slikadzejlana14, alt: 'First dance' },
+                { id: '19', src: slikadzejlana15, alt: 'First dance' },
+                { id: '20', src: slikadzejlana16, alt: 'First dance' },
+                { id: '21', src: slikadzejlana17, alt: 'First dance' },
+                { id: '22', src: slikadzejlana18, alt: 'First dance' },
+                { id: '23', src: slikadzejlana19, alt: 'First dance' },
+                { id: '24', src: slikadzejlana20, alt: 'First dance' },
+            ],
+        },
         'Graz': {
             title: 'Galerija slika iz Graza.',
             description: '',

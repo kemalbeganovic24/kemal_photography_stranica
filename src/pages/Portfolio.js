@@ -22,10 +22,50 @@ import rimini from '../assets/riminicover.JPG'
 import verona from '../assets/veronacover.JPG'
 import sanmarino from '../assets/sanmarinocover.JPG'
 import venecija from '../assets/venecijacover.JPG'
+import dzejlanakumstvo from '../assets/cover_kumstvodzejlana.jpg'
+import aras from '../assets/cover_aras.jpg'
+import ajnai from '../assets/cover_ajnai.jpg'
+import enesdanijela from '../assets/cover_enesdanijela.jpg'
 
 
 const Portfolio = () => {
     const allEvents = [
+        {
+            id: 'enes_danijela',
+            title: 'Enes & Danijela',
+            description: '',
+            date: '07.02.2026.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: enesdanijela,
+            imageCount: 15,
+        },
+        {
+            id: 'Ajna_islamovic_slike',
+            title: 'Ajna Islamović - portret sesija',
+            description: '',
+            date: '06.02.2026.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: ajnai,
+            imageCount: 9,
+        },
+        {
+            id: 'Zarucivanje_aras',
+            title: 'Zaručivanje Aras',
+            description: '',
+            date: '25.01.2026.',
+            location: 'Travnik, BiH',
+            coverImage: aras,
+            imageCount: 5,
+        },
+        {
+            id: 'Kumstvo_Dzejalana',
+            title: 'Galerija slika sa kumstva',
+            description: '',
+            date: '04.01.2026.',
+            location: 'Restoran Bistrovo Kruščica Vitez, BiH',
+            coverImage: dzejlanakumstvo,
+            imageCount: 21,
+        },
         {
             id: 'Graz',
             title: 'Galerija slika iz Graza',

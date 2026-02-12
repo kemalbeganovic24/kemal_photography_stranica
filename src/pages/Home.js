@@ -10,36 +10,39 @@ import ilahija from '../assets/cover_nocilahija.JPG'
 import testament from '../assets/cover_testamnet.jpg'
 import vatrogasci from '../assets/cover_vatrogasci.jpg'
 import graz from '../assets/grazcover.jpg'
+import aras from '../assets/cover_aras.jpg'
+import ajnai from '../assets/cover_ajnai.jpg'
+import enesdanijela from '../assets/cover_enesdanijela.jpg'
 
 
 const Home = () => {
     const featuredEvents = [
         {
-            id: 'Graz',
-            title: 'Galerija slika iz Graza',
+            id: 'enes_danijela',
+            title: 'Enes & Danijela',
             description: '',
-            date: '29.11.2025.',
-            location: 'Graz, Austrija',
-            coverImage: graz,
-            imageCount: 30,
-        },
-        {
-            id: 'premijera-filma-testament',
-            title: 'Premijera filma ,,testament"',
-            description: '',
-            date: '23.10.2025.',
-            location: 'Kino sala Vitez, BiH',
-            coverImage: testament,
-            imageCount: 20,
-        },
-        {
-            id: 'obiljezavanje-vatrogasaca',
-            title: 'Obilježavanje 60. godišnjice DVD Stari Vitez',
-            description: '',
-            date: '18.10.2025.',
-            location: 'Dvorana Behar Stari Vitez, BiH',
-            coverImage: vatrogasci,
+            date: '07.02.2026.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: enesdanijela,
             imageCount: 15,
+        },
+        {
+            id: 'Ajna_islamovic_slike',
+            title: 'Ajna Islamović - portret sesija',
+            description: '',
+            date: '06.02.2026.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: ajnai,
+            imageCount: 9,
+        },
+        {
+            id: 'Zarucivanje_aras',
+            title: 'Zaručivanje Aras',
+            description: '',
+            date: '25.01.2026.',
+            location: 'Travnik, BiH',
+            coverImage: aras,
+            imageCount: 5,
         },
     ];
 
