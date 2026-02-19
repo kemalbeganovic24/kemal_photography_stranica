@@ -23,9 +23,15 @@ import dzejlanakumstvo from '../assets/cover_kumstvodzejlana.jpg'
 import aras from '../assets/cover_aras.jpg'
 import ajnai from '../assets/cover_ajnai.jpg'
 import enesdanijela from '../assets/cover_naslovna_enes.jpg'
+import venecija from '../assets/venecijacover2.jpg'
+import sanmarino from '../assets/sanmarinocover.jpg'
+import rimini from '../assets/riminicover.JPG'
+import verona from '../assets/veronacover.JPG'
+import colmar from '../assets/colmarcover.JPG'
 
 
 
+//Testament
 import slika0_0 from '../assets/testament/IMG_9587.jpg'
 import slika0_1 from  '../assets/testament/IMG_9599.jpg'
 import slika0_2 from '../assets/testament/IMG_9665.jpg'
@@ -162,6 +168,7 @@ import slikeaa4 from '../assets/anes_ajla/IMG_3757.jpg'
 import slikeaa5 from '../assets/anes_ajla/IMG_3768.jpg'
 import slikeaa6 from '../assets/anes_ajla/IMG_3801.jpg'
 
+//Matura MSS Travnik 25
 import slikamss0 from '../assets/msstravnik/IMG_8640.jpg'
 import slikamss1 from '../assets/msstravnik/IMG_8646.jpg'
 import slikamss2 from '../assets/msstravnik/IMG_8666.jpg'
@@ -195,6 +202,7 @@ import slikamss29 from '../assets/msstravnik/slikadeni4.jpg'
 import slikamss30 from '../assets/msstravnik/slikadeni5.jpg'
 import slikamss31 from '../assets/msstravnik/slikadeni6.jpg'
 
+//Matura Vitez 25
 import slikamssv from '../assets/mssvitez/IMG_7691.jpg'
 import slikamssv1 from '../assets/mssvitez/IMG_7708.jpg'
 import slikamssv2 from '../assets/mssvitez/IMG_8008.jpg'
@@ -210,6 +218,7 @@ import slikamssv11 from '../assets/mssvitez/IMG_8494.jpg'
 import slikamssv12 from '../assets/mssvitez/IMG_8510.jpg'
 import slikamssv13 from '../assets/mssvitez/IMG_8523.jpg'
 
+//Matura MSTS 25
 import slikamsts from '../assets/msts/ibro.jpg'
 import slikamsts1 from '../assets/msts/ibro1.jpg'
 import slikamsts2 from '../assets/msts/ibro2.jpg'
@@ -223,6 +232,7 @@ import slikamsts9 from '../assets/msts/IMG_5850.jpg'
 import slikamsts10 from '../assets/msts/IMG_5887.jpg'
 import slikamsts11 from '../assets/msts/IMG_6033.jpg'
 
+//Emanulah Dzenita
 import slikaedz from '../assets/emanulah_dzenita/IMG_4696.jpg'
 import slikaedz1 from '../assets/emanulah_dzenita/IMG_4702.jpg'
 import slikaedz2 from '../assets/emanulah_dzenita/IMG_4881.jpg'
@@ -235,6 +245,7 @@ import slikaedz8 from '../assets/emanulah_dzenita/IMG_5525-2.jpg'
 import slikaedz9 from '../assets/emanulah_dzenita/IMG_5532-2.jpg'
 import slikaedz10 from '../assets/emanulah_dzenita/IMG_5587.jpg'
 
+//Nemrin Zahida
 import slikanz from '../assets/nermin_zahida/IMG_0828.jpg'
 import slikanz1 from '../assets/nermin_zahida/IMG_0853.jpg'
 import slikanz2 from '../assets/nermin_zahida/IMG_0871.jpg'
@@ -246,7 +257,7 @@ import slikanz7 from '../assets/nermin_zahida/IMG_0969.jpg'
 import slikanz8 from '../assets/nermin_zahida/IMG_0999.jpg'
 import slikanz9 from '../assets/nermin_zahida/IMG_1025.jpg'
 
-
+//Graz
 import slikagraz from '../assets/graz/IMG_2158.jpg'
 import slikagraz1 from '../assets/graz/IMG_1962.jpg'
 import slikagraz2 from '../assets/graz/IMG_1971.jpg'
@@ -335,6 +346,105 @@ import slikaenesdanijela11 from '../assets/enes_danijela/enesdanijela11.jpg'
 import slikaenesdanijela12 from '../assets/enes_danijela/enesdanijela12.jpg'
 import slikaenesdanijela13 from '../assets/enes_danijela/enesdanijela13.jpg'
 import slikaenesdanijela15 from '../assets/enes_danijela/enesdanijela15.jpg'
+
+//Venecija
+import venecija0 from '../assets/venecija/venecija0.jpg'
+import venecija1 from '../assets/venecija/venecija1.jpg'
+import venecija2 from '../assets/venecija/venecija2.jpg'
+import venecija3 from '../assets/venecija/venecija3.jpg'
+import venecija4 from '../assets/venecija/venecija4.jpg'
+import venecija5 from '../assets/venecija/venecija5.jpg'
+import venecija6 from '../assets/venecija/venecija6.jpg'
+import venecija7 from '../assets/venecija/venecija7.jpg'
+import venecija8 from '../assets/venecija/venecija8.jpg'
+import venecija9 from '../assets/venecija/venecija9.jpg'
+import venecija10 from '../assets/venecija/venecija10.jpg'
+import venecija11 from '../assets/venecija/venecija11.jpg'
+import venecija12 from '../assets/venecija/venecija12.jpg'
+import venecija13 from '../assets/venecija/venecija13.jpg'
+import venecija14 from '../assets/venecija/venecija14.jpg'
+import venecija15 from '../assets/venecija/venecija15.jpg'
+import venecija16 from '../assets/venecija/venecija16.jpg'
+import venecija17 from '../assets/venecija/venecija17.jpg'
+import venecija18 from '../assets/venecija/venecija18.jpg'
+
+//San Marino
+import sanmarino0 from '../assets/san marino/sanmarino0.jpg'
+import sanmarino1 from '../assets/san marino/sanmarino1.jpg'
+import sanmarino2 from '../assets/san marino/sanmarino2.jpg'
+import sanmarino3 from '../assets/san marino/sanmarino3.jpg'
+import sanmarino4 from '../assets/san marino/sanmarino4.jpg'
+import sanmarino5 from '../assets/san marino/sanmarino5.jpg'
+import sanmarino6 from '../assets/san marino/sanmarino6.jpg'
+import sanmarino7 from '../assets/san marino/sanmarino7.jpg'
+import sanmarino8 from '../assets/san marino/sanmarino8.jpg'
+import sanmarino9 from '../assets/san marino/sanmarino9.jpg'
+import sanmarino10 from '../assets/san marino/sanmarino10.jpg'
+import sanmarino11 from '../assets/san marino/sanmarino11.jpg'
+import sanmarino12 from '../assets/san marino/sanmarino12.jpg'
+import sanmarino13 from '../assets/san marino/sanmarino13.jpg'
+import sanmarino14 from '../assets/san marino/sanmarino14.jpg'
+import sanmarino15 from '../assets/san marino/sanmarino15.jpg'
+
+//Rimini
+import rimini0 from '../assets/rimini/rimini-01.jpg'
+import rimini1 from '../assets/rimini/rimini-02.jpg'
+import rimini2 from '../assets/rimini/rimini-03.jpg'
+import rimini3 from '../assets/rimini/rimini-04.jpg'
+import rimini4 from '../assets/rimini/rimini-05.jpg'
+import rimini5 from '../assets/rimini/rimini-06.jpg'
+import rimini6 from '../assets/rimini/rimini-07.jpg'
+import rimini7 from '../assets/rimini/rimini-08.jpg'
+import rimini8 from '../assets/rimini/rimini-09.jpg'
+import rimini9 from '../assets/rimini/rimini-10.jpg'
+import rimini10 from '../assets/rimini/rimini-11.jpg'
+
+//Verona
+import verona0 from '../assets/verona/verona-01.jpg'
+import verona1 from '../assets/verona/verona-02.jpg'
+import verona2 from '../assets/verona/verona-03.jpg'
+import verona3 from '../assets/verona/verona-04.jpg'
+import verona4 from '../assets/verona/verona-05.jpg'
+import verona5 from '../assets/verona/verona-06.jpg'
+import verona6 from '../assets/verona/verona-07.jpg'
+import verona7 from '../assets/verona/verona-08.jpg'
+import verona8 from '../assets/verona/verona-09.jpg'
+import verona9 from '../assets/verona/verona-10.jpg'
+import verona10 from '../assets/verona/verona-11.jpg'
+import verona11 from '../assets/verona/verona-12.jpg'
+import verona12 from '../assets/verona/verona-13.jpg'
+import verona13 from '../assets/verona/verona-14.jpg'
+import verona14 from '../assets/verona/verona-15.jpg'
+import verona15 from '../assets/verona/verona-16.jpg'
+import verona16 from '../assets/verona/verona-17.jpg'
+import verona17 from '../assets/verona/verona-18.jpg'
+import verona18 from '../assets/verona/verona-19.jpg'
+import verona19 from '../assets/verona/verona-20.jpg'
+
+//Colmar
+import colmar0 from '../assets/colmar/colmar-01.jpg'
+import colmar1 from '../assets/colmar/colmar-02.jpg'
+import colmar2 from '../assets/colmar/colmar-03.jpg'
+import colmar3 from '../assets/colmar/colmar-04.jpg'
+import colmar4 from '../assets/colmar/colmar-05.jpg'
+import colmar5 from '../assets/colmar/colmar-06.jpg'
+import colmar6 from '../assets/colmar/colmar-07.jpg'
+import colmar7 from '../assets/colmar/colmar-08.jpg'
+import colmar8 from '../assets/colmar/colmar-09.jpg'
+import colmar9 from '../assets/colmar/colmar-10.jpg'
+import colmar10 from '../assets/colmar/colmar-11.jpg'
+import colmar11 from '../assets/colmar/colmar-12.jpg'
+import colmar12 from '../assets/colmar/colmar-13.jpg'
+import colmar13 from '../assets/colmar/colmar-14.jpg'
+import colmar14 from '../assets/colmar/colmar-15.jpg'
+import colmar15 from '../assets/colmar/colmar-16.jpg'
+import colmar16 from '../assets/colmar/colmar-17.jpg'
+import colmar17 from '../assets/colmar/colmar-18.jpg'
+import colmar18 from '../assets/colmar/colmar-19.jpg'
+import colmar19 from '../assets/colmar/colmar-20.jpg'
+
+
+
 
 const EventDetail = () => {
     const { eventId } = useParams();
@@ -807,7 +917,138 @@ const EventDetail = () => {
 
             ],
         },
+        'venecija-venice-italy': {
+            title: 'Venecija',
+            description: '',
+            date: '17.09.2023.',
+            location: 'Venecija, Italija',
+            coverImage: venecija,
+            images: [
+                { id: '1', src: venecija0, alt: 'Wedding ceremony' },
+                { id: '2', src: venecija1, alt: 'Bride and groom portrait' },
+                { id: '3', src: venecija2, alt: 'Wedding details' },
+                { id: '4', src: venecija3, alt: 'Wedding party' },
+                { id: '5', src: venecija4, alt: 'First dance' },
+                { id: '6', src: venecija5, alt: 'First dance' },
+                { id: '7', src: venecija6, alt: 'First dance' },
+                { id: '8', src: venecija7, alt: 'First dance' },
+                { id: '9', src: venecija8, alt: 'First dance' },
+                { id: '10', src: venecija9, alt: 'First dance' },
+                { id: '11', src: venecija10, alt: 'First dance' },
+                { id: '12', src: venecija11, alt: 'First dance' },
+                { id: '13', src: venecija12, alt: 'First dance' },
+                { id: '14', src: venecija13, alt: 'First dance' },
+                { id: '15', src: venecija14, alt: 'First dance' },
+                { id: '16', src: venecija15, alt: 'First dance' },
+                { id: '17', src: venecija16, alt: 'First dance' },
+                { id: '18', src: venecija17, alt: 'First dance' },
+                { id: '19', src: venecija18, alt: 'First dance' },
 
+            ],
+        },
+        'san-marino': {
+            title: 'San Marino',
+            description: '',
+            date: '19.09.2023.',
+            location: 'San Marino, San Marino',
+            coverImage: sanmarino,
+            images: [
+                { id: '1', src: sanmarino0, alt: 'Wedding ceremony' },
+                { id: '2', src: sanmarino1, alt: 'Bride and groom portrait' },
+                { id: '3', src: sanmarino2, alt: 'Wedding details' },
+                { id: '4', src: sanmarino3, alt: 'Wedding party' },
+                { id: '5', src: sanmarino4, alt: 'First dance' },
+                { id: '6', src: sanmarino5, alt: 'First dance' },
+                { id: '7', src: sanmarino6, alt: 'First dance' },
+                { id: '8', src: sanmarino7, alt: 'First dance' },
+                { id: '9', src: sanmarino8, alt: 'First dance' },
+                { id: '10', src: sanmarino9, alt: 'First dance' },
+                { id: '11', src: sanmarino10, alt: 'First dance' },
+                { id: '12', src: sanmarino11, alt: 'First dance' },
+                { id: '13', src: sanmarino12, alt: 'First dance' },
+                { id: '14', src: sanmarino13, alt: 'First dance' },
+                { id: '15', src: sanmarino14, alt: 'First dance' },
+                { id: '16', src: sanmarino15, alt: 'First dance' },
+            ],
+        },
+        'rimini': {
+            title: 'Rimini',
+            description: '',
+            date: '20.09.2023.',
+            location: 'Rimini, Italija',
+            coverImage: rimini,
+            images: [
+                { id: '1', src: rimini0, alt: 'Wedding ceremony' },
+                { id: '2', src: rimini1, alt: 'Bride and groom portrait' },
+                { id: '3', src: rimini2, alt: 'Wedding details' },
+                { id: '4', src: rimini3, alt: 'Wedding party' },
+                { id: '5', src: rimini4, alt: 'First dance' },
+                { id: '6', src: rimini5, alt: 'First dance' },
+                { id: '7', src: rimini6, alt: 'First dance' },
+                { id: '8', src: rimini7, alt: 'First dance' },
+                { id: '9', src: rimini8, alt: 'First dance' },
+                { id: '10', src: rimini9, alt: 'First dance' },
+                { id: '11', src: rimini10, alt: 'First dance' },
+            ],
+        },
+        'verona': {
+            title: 'Verona',
+            description: '',
+            date: '22.09.2023.',
+            location: 'Verona, Italija',
+            coverImage: verona,
+            images: [
+                { id: '1', src: verona0, alt: 'Wedding ceremony' },
+                { id: '2', src: verona1, alt: 'Bride and groom portrait' },
+                { id: '3', src: verona2, alt: 'Wedding details' },
+                { id: '4', src: verona3, alt: 'Wedding party' },
+                { id: '5', src: verona4, alt: 'First dance' },
+                { id: '6', src: verona5, alt: 'First dance' },
+                { id: '7', src: verona6, alt: 'First dance' },
+                { id: '8', src: verona7, alt: 'First dance' },
+                { id: '9', src: verona8, alt: 'First dance' },
+                { id: '10', src: verona9, alt: 'First dance' },
+                { id: '11', src: verona10, alt: 'First dance' },
+                { id: '12', src: verona11, alt: 'Wedding ceremony' },
+                { id: '13', src: verona12, alt: 'Bride and groom portrait' },
+                { id: '14', src: verona13, alt: 'Wedding details' },
+                { id: '15', src: verona14, alt: 'Wedding party' },
+                { id: '16', src: verona15, alt: 'First dance' },
+                { id: '17', src: verona16, alt: 'First dance' },
+                { id: '18', src: verona17, alt: 'First dance' },
+                { id: '19', src: verona18, alt: 'First dance' },
+                { id: '20', src: verona19, alt: 'First dance' },
+            ],
+        },
+        'colmar-france': {
+            title: 'Colmar',
+            description: '',
+            date: '13.07.2022.',
+            location: 'Colmar, Francuska',
+            coverImage: colmar,
+            images: [
+                { id: '1', src: colmar0, alt: 'Wedding ceremony' },
+                { id: '2', src: colmar1, alt: 'Bride and groom portrait' },
+                { id: '3', src: colmar2, alt: 'Wedding details' },
+                { id: '4', src: colmar3, alt: 'Wedding party' },
+                { id: '5', src: colmar4, alt: 'First dance' },
+                { id: '6', src: colmar5, alt: 'First dance' },
+                { id: '7', src: colmar6, alt: 'First dance' },
+                { id: '8', src: colmar7, alt: 'First dance' },
+                { id: '9', src: colmar8, alt: 'First dance' },
+                { id: '10', src: colmar9, alt: 'First dance' },
+                { id: '11', src: colmar10, alt: 'First dance' },
+                { id: '12', src: colmar11, alt: 'First dance' },
+                { id: '13', src: colmar12, alt: 'First dance' },
+                { id: '14', src: colmar13, alt: 'First dance' },
+                { id: '15', src: colmar14, alt: 'First dance' },
+                { id: '16', src: colmar15, alt: 'First dance' },
+                { id: '17', src: colmar16, alt: 'First dance' },
+                { id: '18', src: colmar17, alt: 'First dance' },
+                { id: '19', src: colmar18, alt: 'First dance' },
+                { id: '20', src: colmar19, alt: 'First dance' },
+            ],
+        },
     };
 
     const event = eventData[eventId];

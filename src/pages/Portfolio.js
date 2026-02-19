@@ -17,15 +17,20 @@ import mssvitez from '../assets/mssvitezcover.jpg'
 import msstravnik from '../assets/msstravnikcover.jpg'
 import nermin from '../assets/nermincover.jpg'
 import graz from '../assets/grazcover.jpg'
-import francuska from '../assets/colmarcover.JPG'
+import colmar from '../assets/colmarcover.JPG'
 import rimini from '../assets/riminicover.JPG'
 import verona from '../assets/veronacover.JPG'
-import sanmarino from '../assets/sanmarinocover.JPG'
-import venecija from '../assets/venecijacover.JPG'
+import sanmarino from '../assets/sanmarinocover.jpg'
+import venecija from '../assets/venecijacover1.jpg'
 import dzejlanakumstvo from '../assets/cover_kumstvodzejlana.jpg'
 import aras from '../assets/cover_aras.jpg'
 import ajnai from '../assets/cover_ajnai.jpg'
 import enesdanijela from '../assets/cover_enesdanijela.jpg'
+
+import strasburg from '../assets/strasburgcover.JPG'
+import brajzah from '../assets/brajzahcover.JPG'
+import freiburg from '../assets/freiburgcover.JPG'
+
 
 
 const Portfolio = () => {
@@ -198,7 +203,7 @@ const Portfolio = () => {
             date: '17.9.2023.',
             location: 'Venecija, Italija',
             coverImage: venecija,
-            imageCount: 0,
+            imageCount: 19,
         },
         {
             id: 'san-marino',
@@ -207,36 +212,66 @@ const Portfolio = () => {
             date: '19.9.2023.',
             location: 'San Marino, SAN',
             coverImage: sanmarino,
-            imageCount: 0,
+            imageCount: 16,
         },
         {
             id: 'rimini',
             title: 'Rimini',
             description: 'Galerija slika iz Riminija.',
-            date: '18.10.2025.09.2023.',
+            date: '20.09.2023.',
             location: 'Rimini, Italija',
             coverImage: rimini,
-            imageCount: 0,
+            imageCount: 11,
         },
+
         {
             id: 'verona',
             title: 'Verona',
             description: 'Galerija slika iz Verone.',
-            date: '28.12.2024..09.2023.',
+            date: '22.09.2023.',
             location: 'Verona, Italija',
             coverImage: verona,
-            imageCount: 0,
+            imageCount: 20,
         },
         {
-            id: 'francuska-france',
-            title: 'Francuska 2022.',
-            description: 'Galerija slika iz Francuske.',
-            date: '12.7.2022.',
-            location: 'Colmar - Strasbourg - Freiburg - Breisach, Francuska, Njemačka',
-            coverImage: francuska,
+            id: 'Freiburg',
+            title: 'Freiburg',
+            description: 'Galerija slika iz Freiburga.',
+            date: '01.8.2022.',
+            location: 'Freiburg, Njemačka',
+            coverImage: freiburg,
             imageCount: 0,
         },
 
+        {
+            id: 'Breisach-am-Rhein',
+            title: 'Breisach am Rhein ',
+            description: 'Galerija slika iz Breisacha.',
+            date: '29.7.2022.',
+            location: 'Breisach am Rhein, Njemačka',
+            coverImage: brajzah,
+            imageCount: 0,
+        },
+
+        {
+            id: 'strasburg-france',
+            title: 'Strasburg',
+            description: 'Galerija slika iz Strasburga.',
+            date: '16.7.2022.',
+            location: 'Strasburg, Francuska',
+            coverImage: strasburg,
+            imageCount: 0,
+        },
+
+        {
+            id: 'colmar-france',
+            title: 'Colmar',
+            description: 'Galerija slika iz Colmara.',
+            date: '13.7.2022.',
+            location: 'Colmar, Francuska',
+            coverImage: colmar,
+            imageCount: 20,
+        },
 
     ];
 
