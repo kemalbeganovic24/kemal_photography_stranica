@@ -443,8 +443,78 @@ import colmar17 from '../assets/colmar/colmar-18.jpg'
 import colmar18 from '../assets/colmar/colmar-19.jpg'
 import colmar19 from '../assets/colmar/colmar-20.jpg'
 
+//Belma
+import belma from '../assets/belma_cover.jpg'
+import belma0 from '../assets/belma_matura_24/belma0.jpg'
+import belma1 from '../assets/belma_matura_24/belma1.jpg'
+import belma2 from '../assets/belma_matura_24/belma2.jpg'
+import belma3 from '../assets/belma_matura_24/belma3.jpg'
+import belma4 from '../assets/belma_matura_24/belma4.jpg'
+import belma5 from '../assets/belma_matura_24/belma5.jpg'
+import belma6 from '../assets/belma_matura_24/belma6.jpg'
+import belma7 from '../assets/belma_matura_24/belma7.jpg'
+import belma8 from '../assets/belma_matura_24/belma8.jpg'
+import belma9 from '../assets/belma_matura_24/belma9.jpg'
+import belma10 from '../assets/belma_matura_24/belma10.jpg'
+import belma11 from '../assets/belma_matura_24/belma11.jpg'
+import belma12 from '../assets/belma_matura_24/belma12.jpg'
+import belma13 from '../assets/belma_matura_24/belma13.jpg'
+import belma14 from '../assets/belma_matura_24/belma14.jpg'
+import belma15 from '../assets/belma_matura_24/belma15.jpg'
+import belma16 from '../assets/belma_matura_24/belma16.jpg'
+import belma17 from '../assets/belma_matura_24/belma17.jpg'
+import belma18 from '../assets/belma_matura_24/belma18.jpg'
 
+//Harisa
+import harisa from '../assets/harisa_cover.jpg'
+import harisa0 from '../assets/harisa_matura_24/harisa0.jpg'
+import harisa1 from '../assets/harisa_matura_24/harisa1.jpg'
+import harisa2 from '../assets/harisa_matura_24/harisa2.jpg'
+import harisa3 from '../assets/harisa_matura_24/harisa3.jpg'
+import harisa4 from '../assets/harisa_matura_24/harisa4.jpg'
+import harisa5 from '../assets/harisa_matura_24/harisa5.jpg'
+import harisa6 from '../assets/harisa_matura_24/harisa6.jpg'
+import harisa7 from '../assets/harisa_matura_24/harisa7.jpg'
+import harisa8 from '../assets/harisa_matura_24/harisa8.jpg'
+import harisa9 from '../assets/harisa_matura_24/harisa9.jpg'
+import harisa10 from '../assets/harisa_matura_24/harisa10.jpg'
+import harisa11 from '../assets/harisa_matura_24/harisa11.jpg'
+import harisa12 from '../assets/harisa_matura_24/harisa12.jpg'
+import harisa13 from '../assets/harisa_matura_24/harisa13.jpg'
+import harisa14 from '../assets/harisa_matura_24/harisa14.jpg'
 
+//Suana
+import suana from '../assets/suana_cover.jpg'
+import suana0 from '../assets/suana_matura24/suana0.jpg'
+import suana1 from '../assets/suana_matura24/suana1.jpg'
+import suana2 from '../assets/suana_matura24/suana2.jpg'
+import suana3 from '../assets/suana_matura24/suana3.jpg'
+import suana4 from '../assets/suana_matura24/suana4.jpg'
+import suana5 from '../assets/suana_matura24/suana5.jpg'
+import suana6 from '../assets/suana_matura24/suana6.jpg'
+import suana7 from '../assets/suana_matura24/suana7.jpg'
+import suana8 from '../assets/suana_matura24/suana8.jpg'
+import suana9 from '../assets/suana_matura24/suana9.jpg'
+import suana10 from '../assets/suana_matura24/suana10.jpg'
+
+//Frano
+import frano from '../assets/frano_cover.jpg'
+import frano0 from '../assets/frano_romari/frano0.jpg'
+import frano1 from '../assets/frano_romari/frano1.jpg'
+import frano2 from '../assets/frano_romari/frano2.jpg'
+import frano3 from '../assets/frano_romari/frano3.jpg'
+import frano4 from '../assets/frano_romari/frano4.jpg'
+import frano5 from '../assets/frano_romari/frano5.jpg'
+
+//Amila
+import amilap from '../assets/amilap_cover.jpg'
+import amila0 from '../assets/amilap/amila0.jpg'
+import amila1 from '../assets/amilap/amila1.jpg'
+import amila2 from '../assets/amilap/amila2.jpg'
+import amila3 from '../assets/amilap/amila3.jpg'
+import amila4 from '../assets/amilap/amila4.jpg'
+import amila5 from '../assets/amilap/amila5.jpg'
+import amila6 from '../assets/amilap/amila6.jpg'
 
 const EventDetail = () => {
     const { eventId } = useParams();
@@ -494,6 +564,22 @@ const EventDetail = () => {
                 { id: '8', src: slikaajnai7, alt: 'First dance' },
                 { id: '9', src: slikaajnai8, alt: 'First dance' },
 
+
+            ],
+        },
+        'frano-romari': {
+            title: 'Frano Topić - Sport sesija',
+            description: '',
+            date: '31.01.2026.',
+            location: 'Stadion Dolac na Lašvi, BiH',
+            coverImage: frano,
+            images: [
+                { id: '1', src: frano0, alt: 'Wedding ceremony' },
+                { id: '2', src: frano1, alt: 'Bride and groom portrait' },
+                { id: '3', src: frano2, alt: 'Bride and groom portrait' },
+                { id: '4', src: frano3, alt: 'Wedding details' },
+                { id: '5', src: frano4, alt: 'Wedding party' },
+                { id: '6', src: frano5, alt: 'Wedding party' },
 
             ],
         },
@@ -896,6 +982,23 @@ const EventDetail = () => {
             ],
         },
 
+        'amila-pezer': {
+            title: 'Amila Pezer - portret sesija',
+            description: '',
+            date: '22.05.2025.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: amilap,
+            images: [
+                { id: '1', src: amila0, alt: 'Wedding ceremony' },
+                { id: '2', src: amila1, alt: 'Bride and groom portrait' },
+                { id: '3', src: amila2, alt: 'Bride and groom portrait' },
+                { id: '4', src: amila3, alt: 'Wedding details' },
+                { id: '5', src: amila4, alt: 'Wedding party' },
+                { id: '6', src: amila5, alt: 'Wedding party' },
+                { id: '7', src: amila6, alt: 'Wedding party' },
+            ],
+        },
+
         'nermin-zahida': {
             title: 'Nermin & Zahida',
             description: '',
@@ -913,6 +1016,84 @@ const EventDetail = () => {
                 { id: '9', src: slikanz7, alt: 'First dance' },
                 { id: '10', src: slikanz8, alt: 'First dance' },
                 { id: '11', src: slikanz9, alt: 'First dance' },
+
+
+            ],
+        },
+
+        'belma-hero-matura': {
+            title: 'Belma Hero - matura',
+            description: '',
+            date: '24.05.2024.',
+            location: 'Vitez, BiH',
+            coverImage: belma,
+            images: [
+                { id: '1', src: belma0, alt: 'Wedding ceremony' },
+                { id: '2', src: belma1, alt: 'Bride and groom portrait' },
+                { id: '3', src: belma2, alt: 'Wedding details' },
+                { id: '4', src: belma3, alt: 'Wedding party' },
+                { id: '5', src: belma4, alt: 'First dance' },
+                { id: '6', src: belma5, alt: 'First dance' },
+                { id: '7', src: belma6, alt: 'First dance' },
+                { id: '8', src: belma7, alt: 'First dance' },
+                { id: '9', src: belma8, alt: 'First dance' },
+                { id: '10', src: belma9, alt: 'First dance' },
+                { id: '11', src: belma10, alt: 'Bride and groom portrait' },
+                { id: '12', src: belma11, alt: 'Wedding details' },
+                { id: '13', src: belma12, alt: 'Wedding party' },
+                { id: '14', src: belma13, alt: 'First dance' },
+                { id: '15', src: belma14, alt: 'First dance' },
+                { id: '16', src: belma15, alt: 'First dance' },
+                { id: '17', src: belma16, alt: 'First dance' },
+                { id: '18', src: belma17, alt: 'First dance' },
+                { id: '19', src: belma18, alt: 'First dance' },
+
+            ],
+        },
+        'harisa-zejnic-matura': {
+            title: 'Harisa Zejnić - matura',
+            description: '',
+            date: '24.05.2024.',
+            location: 'Tvrđava Travnik, BiH',
+            coverImage: harisa,
+            images: [
+                { id: '1', src: harisa0, alt: 'Wedding ceremony' },
+                { id: '2', src: harisa1, alt: 'Bride and groom portrait' },
+                { id: '3', src: harisa2, alt: 'Wedding details' },
+                { id: '4', src: harisa3, alt: 'Wedding party' },
+                { id: '5', src: harisa4, alt: 'First dance' },
+                { id: '6', src: harisa5, alt: 'First dance' },
+                { id: '7', src: harisa6, alt: 'First dance' },
+                { id: '8', src: harisa7, alt: 'First dance' },
+                { id: '9', src: harisa8, alt: 'First dance' },
+                { id: '10', src: harisa9, alt: 'First dance' },
+                { id: '11', src: harisa10, alt: 'Bride and groom portrait' },
+                { id: '12', src: harisa11, alt: 'Wedding details' },
+                { id: '13', src: harisa12, alt: 'Wedding party' },
+                { id: '14', src: harisa13, alt: 'First dance' },
+                { id: '15', src: harisa14, alt: 'First dance' },
+
+
+            ],
+        },
+        'suana-hurem-matura': {
+            title: 'Suana Hurem - matura',
+            description: '',
+            date: '17.05.2024.',
+            location: 'Vitez, BiH',
+            coverImage: suana,
+            images: [
+                { id: '1', src: suana0, alt: 'Wedding ceremony' },
+                { id: '2', src: suana1, alt: 'Bride and groom portrait' },
+                { id: '3', src: suana2, alt: 'Wedding details' },
+                { id: '4', src: suana3, alt: 'Wedding party' },
+                { id: '5', src: suana4, alt: 'First dance' },
+                { id: '6', src: suana5, alt: 'First dance' },
+                { id: '7', src: suana6, alt: 'First dance' },
+                { id: '8', src: suana7, alt: 'First dance' },
+                { id: '9', src: suana8, alt: 'First dance' },
+                { id: '10', src: suana9, alt: 'First dance' },
+                { id: '11', src: suana10, alt: 'Bride and groom portrait' },
 
 
             ],

@@ -13,6 +13,7 @@ import graz from '../assets/grazcover.jpg'
 import aras from '../assets/cover_aras.jpg'
 import ajnai from '../assets/cover_ajnai.jpg'
 import enesdanijela from '../assets/cover_enesdanijela.jpg'
+import frano from "../assets/frano_cover.jpg";
 
 
 const Home = () => {
@@ -36,13 +37,13 @@ const Home = () => {
             imageCount: 9,
         },
         {
-            id: 'Zarucivanje_aras',
-            title: 'Zaručivanje Aras',
+            id: 'frano-romari',
+            title: 'Frano Topić - Sport sesija',
             description: '',
-            date: '25.01.2026.',
-            location: 'Travnik, BiH',
-            coverImage: aras,
-            imageCount: 5,
+            date: '31.01.2026.',
+            location: 'Stadion Dolac na Lašvi, BiH',
+            coverImage: frano,
+            imageCount: 6,
         },
     ];
 

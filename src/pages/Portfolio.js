@@ -31,6 +31,14 @@ import strasburg from '../assets/strasburgcover.JPG'
 import brajzah from '../assets/brajzahcover.JPG'
 import freiburg from '../assets/freiburgcover.JPG'
 
+import amila from '../assets/amilap_cover.jpg'
+import frano from '../assets/frano_cover.jpg'
+import belma from '../assets/belma_cover.jpg'
+import harisa from '../assets/harisa_cover.jpg'
+import suana from '../assets/suana_cover.jpg'
+
+
+
 
 
 const Portfolio = () => {
@@ -52,6 +60,15 @@ const Portfolio = () => {
             location: 'Etno selo Čardaci Vitez, BiH',
             coverImage: ajnai,
             imageCount: 9,
+        },
+        {
+            id: 'frano-romari',
+            title: 'Frano Topić - Sport sesija',
+            description: '',
+            date: '31.01.2026.',
+            location: 'Stadion Dolac na Lašvi, BiH',
+            coverImage: frano,
+            imageCount: 6,
         },
         {
             id: 'Zarucivanje_aras',
@@ -188,6 +205,15 @@ const Portfolio = () => {
             imageCount: 14,
         },
         {
+            id: 'amila-pezer',
+            title: 'Amila Pezer - portret sesija',
+            description: '',
+            date: '22.5.2025.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: amila,
+            imageCount: 7,
+        },
+        {
             id: 'nermin-zahida',
             title: 'Nermin & Zahida',
             description: '',
@@ -195,6 +221,33 @@ const Portfolio = () => {
             location: 'Vitez, BiH',
             coverImage: nermin,
             imageCount: 10,
+        },
+        {
+            id: 'belma-hero-matura',
+            title: 'Belma Hero - matura',
+            description: '',
+            date: '24.05.2024.',
+            location: 'Vitez, BiH',
+            coverImage: belma,
+            imageCount: 19,
+        },
+        {
+            id: 'harisa-zejnic-matura',
+            title: 'Harisa Zejnić - matura',
+            description: '',
+            date: '24.05.2024.',
+            location: 'Tvrđava Travnik, BiH',
+            coverImage: harisa,
+            imageCount: 15,
+        },
+        {
+            id: 'suana-hurem-matura',
+            title: 'Suana Hurem - matura',
+            description: '',
+            date: '17.05.2024.',
+            location: 'Vitez, BiH',
+            coverImage: suana,
+            imageCount: 11,
         },
         {
             id: 'venecija-venice-italy',
