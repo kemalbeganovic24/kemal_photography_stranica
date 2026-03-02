@@ -28,6 +28,9 @@ import sanmarino from '../assets/sanmarino_cover.JPG'
 import rimini from '../assets/riminicover.JPG'
 import verona from '../assets/veronacover.JPG'
 import colmar from '../assets/colmarcover.JPG'
+import strasburg from '../assets/strasburgcover.JPG'
+import brajzah from '../assets/brajzahcover.JPG'
+import freiburg from '../assets/freiburgcover.JPG'
 
 
 
@@ -515,6 +518,55 @@ import amila3 from '../assets/amilap/amila3.jpg'
 import amila4 from '../assets/amilap/amila4.jpg'
 import amila5 from '../assets/amilap/amila5.jpg'
 import amila6 from '../assets/amilap/amila6.jpg'
+
+//Freiburg
+import frei0 from '../assets/freiburg/freiburg0.jpg'
+import frei1 from '../assets/freiburg/freiburg1.jpg'
+import frei2 from '../assets/freiburg/freiburg2.jpg'
+import frei3 from '../assets/freiburg/freiburg3.jpg'
+import frei4 from '../assets/freiburg/freiburg4.jpg'
+import frei5 from '../assets/freiburg/freiburg5.jpg'
+import frei6 from '../assets/freiburg/freiburg6.jpg'
+import frei7 from '../assets/freiburg/freiburg7.jpg'
+import frei8 from '../assets/freiburg/freiburg8.jpg'
+
+//Breisach
+import brei0 from '../assets/brajzah/brajzah0.jpg'
+import brei1 from '../assets/brajzah/brajzah1.jpg'
+import brei2 from '../assets/brajzah/brajzah2.jpg'
+import brei3 from '../assets/brajzah/brajzah3.jpg'
+import brei4 from '../assets/brajzah/brajzah4.jpg'
+import brei5 from '../assets/brajzah/brajzah5.jpg'
+import brei6 from '../assets/brajzah/brajzah6.jpg'
+import brei7 from '../assets/brajzah/brajzah7.jpg'
+
+
+//Strasburg
+import stras0 from '../assets/strasburg/strasburg0.jpg'
+import stras1 from '../assets/strasburg/strasburg1.jpg'
+import stras2 from '../assets/strasburg/strasburg2.jpg'
+import stras3 from '../assets/strasburg/strasburg3.jpg'
+import stras4 from '../assets/strasburg/strasburg4.jpg'
+import stras5 from '../assets/strasburg/strasburg5.jpg'
+import stras6 from '../assets/strasburg/strasburg6.jpg'
+import stras7 from '../assets/strasburg/strasburg7.jpg'
+import stras8 from '../assets/strasburg/strasburg8.jpg'
+import stras9 from '../assets/strasburg/strasburg9.jpg'
+import stras10 from '../assets/strasburg/strasburg10.jpg'
+import stras11 from '../assets/strasburg/strasburg11.jpg'
+import stras12 from '../assets/strasburg/strasburg12.jpg'
+import stras13 from '../assets/strasburg/strasburg13.jpg'
+import stras14 from '../assets/strasburg/strasburg14.jpg'
+import stras15 from '../assets/strasburg/strasburg15.jpg'
+import stras16 from '../assets/strasburg/strasburg16.jpg'
+import stras17 from '../assets/strasburg/strasburg17.jpg'
+import stras18 from '../assets/strasburg/strasburg18.jpg'
+import stras19 from '../assets/strasburg/strasburg19.jpg'
+import stras20 from '../assets/strasburg/strasburg20.jpg'
+import stras21 from '../assets/strasburg/strasburg21.jpg'
+import stras22 from '../assets/strasburg/strasburg22.jpg'
+
+
 
 const EventDetail = () => {
     const { eventId } = useParams();
@@ -1199,6 +1251,75 @@ const EventDetail = () => {
                 { id: '18', src: verona17, alt: 'First dance' },
                 { id: '19', src: verona18, alt: 'First dance' },
                 { id: '20', src: verona19, alt: 'First dance' },
+            ],
+        },
+        'Freiburg': {
+            title: 'Freiburg',
+            description: '',
+            date: '01.08.2022.',
+            location: 'Freiburg, Njemačka',
+            coverImage: freiburg,
+            images: [
+                { id: '1', src: frei0, alt: 'Wedding ceremony' },
+                { id: '2', src: frei1, alt: 'Bride and groom portrait' },
+                { id: '3', src: frei2, alt: 'Wedding details' },
+                { id: '4', src: frei3, alt: 'Wedding party' },
+                { id: '5', src: frei4, alt: 'First dance' },
+                { id: '6', src: frei5, alt: 'First dance' },
+                { id: '7', src: frei6, alt: 'First dance' },
+                { id: '8', src: frei7, alt: 'First dance' },
+                { id: '9', src: frei8, alt: 'First dance' },
+
+            ],
+        },
+        'Breisach-am-Rhein': {
+            title: 'Breisach-am-Rhein',
+            description: '',
+            date: '29.07.2022.',
+            location: 'Breisach-am-Rhein, Njemačka',
+            coverImage: brajzah,
+            images: [
+                { id: '1', src: brei0, alt: 'Wedding ceremony' },
+                { id: '2', src: brei1, alt: 'Bride and groom portrait' },
+                { id: '3', src: brei2, alt: 'Wedding details' },
+                { id: '4', src: brei3, alt: 'Wedding party' },
+                { id: '5', src: brei4, alt: 'First dance' },
+                { id: '6', src: brei5, alt: 'First dance' },
+                { id: '7', src: brei6, alt: 'First dance' },
+                { id: '8', src: brei7, alt: 'First dance' },
+
+            ],
+        },
+        'strasburg-france': {
+            title: 'Strasburg',
+            description: '',
+            date: '16.07.2022.',
+            location: 'Strasburg, Njemačka',
+            coverImage: strasburg,
+            images: [
+                { id: '1', src: stras0, alt: 'Wedding ceremony' },
+                { id: '2', src: stras1, alt: 'Bride and groom portrait' },
+                { id: '3', src: stras2, alt: 'Wedding details' },
+                { id: '4', src: stras3, alt: 'Wedding party' },
+                { id: '5', src: stras4, alt: 'First dance' },
+                { id: '6', src: stras5, alt: 'First dance' },
+                { id: '7', src: stras6, alt: 'First dance' },
+                { id: '8', src: stras7, alt: 'First dance' },
+                { id: '9', src: stras8, alt: 'First dance' },
+                { id: '10', src: stras9, alt: 'First dance' },
+                { id: '11', src: stras10, alt: 'First dance' },
+                { id: '12', src: stras11, alt: 'First dance' },
+                { id: '13', src: stras12, alt: 'First dance' },
+                { id: '14', src: stras13, alt: 'First dance' },
+                { id: '15', src: stras14, alt: 'First dance' },
+                { id: '16', src: stras15, alt: 'First dance' },
+                { id: '17', src: stras16, alt: 'First dance' },
+                { id: '18', src: stras17, alt: 'First dance' },
+                { id: '19', src: stras18, alt: 'First dance' },
+                { id: '20', src: stras19, alt: 'First dance' },
+                { id: '21', src: stras20, alt: 'First dance' },
+                { id: '22', src: stras21, alt: 'First dance' },
+                { id: '23', src: stras22, alt: 'First dance' },
             ],
         },
         'colmar-france': {

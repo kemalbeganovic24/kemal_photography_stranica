@@ -293,7 +293,7 @@ const Portfolio = () => {
             date: '01.8.2022.',
             location: 'Freiburg, Njemačka',
             coverImage: freiburg,
-            imageCount: 0,
+            imageCount: 9,
         },
 
         {
@@ -303,7 +303,7 @@ const Portfolio = () => {
             date: '29.7.2022.',
             location: 'Breisach am Rhein, Njemačka',
             coverImage: brajzah,
-            imageCount: 0,
+            imageCount: 8,
         },
 
         {
@@ -313,7 +313,7 @@ const Portfolio = () => {
             date: '16.7.2022.',
             location: 'Strasburg, Francuska',
             coverImage: strasburg,
-            imageCount: 0,
+            imageCount: 23,
         },
 
         {
