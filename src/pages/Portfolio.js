@@ -16,6 +16,10 @@ import msts from '../assets/mstscover.jpg'
 import mssvitez from '../assets/mssvitezcover.jpg'
 import msstravnik from '../assets/msstravnikcover.jpg'
 import nermin from '../assets/nermincover.jpg'
+import tariksajra from '../assets/tarik_sajra_cover.jpg'
+import mevlehana from '../assets/mevle_hana_cover.jpg'
+import harisarmina from '../assets/haris_armina_cover.jpg'
+import farisadna from '../assets/faris_adna_cover.jpg'
 import graz from '../assets/grazcover.jpg'
 import colmar from '../assets/colmarcover.JPG'
 import rimini from '../assets/riminicover.JPG'
@@ -99,7 +103,7 @@ const Portfolio = () => {
         },
         {
             id: 'premijera-filma-testament',
-            title: 'Premijera filma ,,testament"',
+            title: 'Premijera filma ,,Testament"',
             description: '',
             date: '23.10.2025.',
             location: 'Kino sala Vitez, BiH',
@@ -214,6 +218,15 @@ const Portfolio = () => {
             imageCount: 7,
         },
         {
+            id: 'tarik-sajra',
+            title: 'Tarik & Sajra',
+            description: '',
+            date: '11.03.2025.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: tariksajra,
+            imageCount: 10,
+        },
+        {
             id: 'nermin-zahida',
             title: 'Nermin & Zahida',
             description: '',
@@ -221,6 +234,33 @@ const Portfolio = () => {
             location: 'Vitez, BiH',
             coverImage: nermin,
             imageCount: 10,
+        },
+        {
+            id: 'mevludin-hana',
+            title: 'Mevludin & Hana',
+            description: '',
+            date: '27.12.2024.',
+            location: 'Vitez, BiH',
+            coverImage: mevlehana,
+            imageCount: 5,
+        },
+        {
+            id: 'faris-adna',
+            title: 'Faris & Adna',
+            description: '',
+            date: '28.08.2024.',
+            location: 'Travnik, BiH',
+            coverImage: farisadna,
+            imageCount: 11,
+        },
+        {
+            id: 'haris-armina',
+            title: 'Harisa & Armina',
+            description: '',
+            date: '16.08.2024.',
+            location: 'Zenica, BiH',
+            coverImage: harisarmina,
+            imageCount: 7,
         },
         {
             id: 'belma-hero-matura',

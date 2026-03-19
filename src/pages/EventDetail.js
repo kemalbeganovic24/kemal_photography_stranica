@@ -18,6 +18,11 @@ import mssvitez from '../assets/mssvitezcover.jpg'
 import msstravnik from '../assets/msstravnikcover.jpg'
 import emanulah from '../assets/cover_emanulah.jpg'
 import nermin from '../assets/nermincover.jpg'
+import tariksajra from '../assets/tarik_sajra_cover.jpg'
+import mevlehana from '../assets/mevle_hana_cover.jpg'
+import harisarmina from '../assets/haris_armina_cover.jpg'
+import farisadna from '../assets/faris_adna_cover.jpg'
+
 import graz from '../assets/grazcover.jpg'
 import dzejlanakumstvo from '../assets/cover_kumstvodzejlana.jpg'
 import aras from '../assets/cover_aras.jpg'
@@ -566,7 +571,46 @@ import stras20 from '../assets/strasburg/strasburg20.jpg'
 import stras21 from '../assets/strasburg/strasburg21.jpg'
 import stras22 from '../assets/strasburg/strasburg22.jpg'
 
+//Haris-Armina
+import harisar0 from '../assets/haris_armina/haris0.jpg'
+import harisar1 from '../assets/haris_armina/haris1.jpg'
+import harisar2 from '../assets/haris_armina/haris2.jpg'
+import harisar3 from '../assets/haris_armina/haris3.jpg'
+import harisar4 from '../assets/haris_armina/haris4.jpg'
+import harisar5 from '../assets/haris_armina/haris5.jpg'
+import harisar6 from '../assets/haris_armina/haris6.jpg'
 
+//Faris-Adna
+import farisadna0 from '../assets/faris_adna/fa0.jpg'
+import farisadna1 from '../assets/faris_adna/fa1.jpg'
+import farisadna2 from '../assets/faris_adna/fa2.jpg'
+import farisadna3 from '../assets/faris_adna/fa3.jpg'
+import farisadna4 from '../assets/faris_adna/fa4.jpg'
+import farisadna5 from '../assets/faris_adna/fa5.jpg'
+import farisadna6 from '../assets/faris_adna/fa6.jpg'
+import farisadna7 from '../assets/faris_adna/fa7.jpg'
+import farisadna8 from '../assets/faris_adna/fa8.jpg'
+import farisadna9 from '../assets/faris_adna/fa9.jpg'
+import farisadna10 from '../assets/faris_adna/fa10.jpg'
+
+//Mevle-Hana
+import mevlehana0 from '../assets/mevle_hana/mevle0.jpg'
+import mevlehana1 from '../assets/mevle_hana/mevle1.jpg'
+import mevlehana2 from '../assets/mevle_hana/mevle2.jpg'
+import mevlehana3 from '../assets/mevle_hana/mevle3.jpg'
+import mevlehana4 from '../assets/mevle_hana/mevle4.jpg'
+
+//Tarik-Sajra
+import tariksajra0 from '../assets/tarik_sajra/tarik0.jpg'
+import tariksajra1 from '../assets/tarik_sajra/tarik1.jpg'
+import tariksajra2 from '../assets/tarik_sajra/tarik2.jpg'
+import tariksajra3 from '../assets/tarik_sajra/tarik3.jpg'
+import tariksajra4 from '../assets/tarik_sajra/tarik4.jpg'
+import tariksajra5 from '../assets/tarik_sajra/tarik5.jpg'
+import tariksajra6 from '../assets/tarik_sajra/tarik6.jpg'
+import tariksajra7 from '../assets/tarik_sajra/tarik7.jpg'
+import tariksajra8 from '../assets/tarik_sajra/tarik8.jpg'
+import tariksajra9 from '../assets/tarik_sajra/tarik9.jpg'
 
 const EventDetail = () => {
     const { eventId } = useParams();
@@ -1050,6 +1094,25 @@ const EventDetail = () => {
                 { id: '7', src: amila6, alt: 'Wedding party' },
             ],
         },
+        'tarik-sajra': {
+            title: 'Tarik & Sajra',
+            description: '',
+            date: '11.03.2025.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: tariksajra,
+            images: [
+                { id: '1', src: tariksajra0, alt: 'Wedding ceremony' },
+                { id: '2', src: tariksajra1, alt: 'Bride and groom portrait' },
+                { id: '3', src: tariksajra2, alt: 'Bride and groom portrait' },
+                { id: '4', src: tariksajra3, alt: 'Wedding details' },
+                { id: '5', src: tariksajra4, alt: 'Wedding party' },
+                { id: '6', src: tariksajra5, alt: 'Wedding party' },
+                { id: '7', src: tariksajra6, alt: 'Wedding party' },
+                { id: '8', src: tariksajra7, alt: 'Wedding party' },
+                { id: '9', src: tariksajra8, alt: 'Wedding party' },
+                { id: '10', src: tariksajra9, alt: 'Wedding party' },
+            ],
+        },
 
         'nermin-zahida': {
             title: 'Nermin & Zahida',
@@ -1060,15 +1123,64 @@ const EventDetail = () => {
             images: [
                 { id: '1', src: slikanz, alt: 'Wedding ceremony' },
                 { id: '2', src: slikanz1, alt: 'Bride and groom portrait' },
-                { id: '4', src: slikanz2, alt: 'Wedding details' },
-                { id: '5', src: slikanz3, alt: 'Wedding party' },
-                { id: '6', src: slikanz4, alt: 'First dance' },
-                { id: '7', src: slikanz5, alt: 'First dance' },
-                { id: '8', src: slikanz6, alt: 'First dance' },
-                { id: '9', src: slikanz7, alt: 'First dance' },
-                { id: '10', src: slikanz8, alt: 'First dance' },
-                { id: '11', src: slikanz9, alt: 'First dance' },
+                { id: '3', src: slikanz2, alt: 'Wedding details' },
+                { id: '4', src: slikanz3, alt: 'Wedding party' },
+                { id: '5', src: slikanz4, alt: 'First dance' },
+                { id: '6', src: slikanz5, alt: 'First dance' },
+                { id: '7', src: slikanz6, alt: 'First dance' },
+                { id: '8', src: slikanz7, alt: 'First dance' },
+                { id: '9', src: slikanz8, alt: 'First dance' },
+                { id: '10', src: slikanz9, alt: 'First dance' },
+            ],
+        },
 
+        'mevludin-hana': {
+            title: 'Mevludin & Hana',
+            description: '',
+            date: '27.12.2024.',
+            location: 'Vitez, BiH',
+            coverImage: mevlehana,
+            images: [
+                { id: '1', src: mevlehana0, alt: 'Wedding ceremony' },
+                { id: '2', src: mevlehana1, alt: 'Bride and groom portrait' },
+                { id: '3', src: mevlehana2, alt: 'Wedding details' },
+                { id: '4', src: mevlehana3, alt: 'Wedding party' },
+                { id: '5', src: mevlehana4, alt: 'First dance' },
+            ],
+        },
+        'faris-adna': {
+            title: 'Faris & Adna',
+            description: '',
+            date: '28.08.2024.',
+            location: 'Travnik, BiH',
+            coverImage: farisadna,
+            images: [
+                { id: '1', src: farisadna0, alt: 'Wedding ceremony' },
+                { id: '2', src: farisadna1, alt: 'Bride and groom portrait' },
+                { id: '3', src: farisadna2, alt: 'Wedding details' },
+                { id: '4', src: farisadna3, alt: 'Wedding party' },
+                { id: '5', src: farisadna4, alt: 'First dance' },
+                { id: '6', src: farisadna5, alt: 'First dance' },
+                { id: '7', src: farisadna6, alt: 'First dance' },
+                { id: '8', src: farisadna7, alt: 'First dance' },
+                { id: '9', src: farisadna8, alt: 'First dance' },
+                { id: '10', src: farisadna9, alt: 'First dance' },
+            ],
+        },
+        'haris-armina': {
+            title: 'Haris & Armina',
+            description: '',
+            date: '16.08.2024.',
+            location: 'Zenica, BiH',
+            coverImage: harisarmina,
+            images: [
+                { id: '1', src: harisar0, alt: 'Wedding ceremony' },
+                { id: '2', src: harisar1, alt: 'Bride and groom portrait' },
+                { id: '3', src: harisar2, alt: 'Wedding details' },
+                { id: '4', src: harisar3, alt: 'Wedding party' },
+                { id: '5', src: harisar4, alt: 'First dance' },
+                { id: '5', src: harisar5, alt: 'First dance' },
+                { id: '6', src: harisar6, alt: 'First dance' },
 
             ],
         },
