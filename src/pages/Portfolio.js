@@ -40,6 +40,7 @@ import frano from '../assets/frano_cover.jpg'
 import belma from '../assets/belma_cover.jpg'
 import harisa from '../assets/harisa_cover.jpg'
 import suana from '../assets/suana_cover.jpg'
+import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
 
 
 
@@ -47,6 +48,15 @@ import suana from '../assets/suana_cover.jpg'
 
 const Portfolio = () => {
     const allEvents = [
+        {
+            id: 'bajramsko_sijelo_nek_mirisu_avlije_2026',
+            title: 'Bajramsko sijelo "Nek mirišu avlije"',
+            description: '',
+            date: '22.03.2026.',
+            location: 'Dvorana Behar Vitez, BiH',
+            coverImage: bajramskosijelo,
+            imageCount: 34,
+        },
         {
             id: 'enes_danijela',
             title: 'Enes & Danijela',

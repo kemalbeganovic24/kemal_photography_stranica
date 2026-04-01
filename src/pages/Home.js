@@ -14,10 +14,21 @@ import aras from '../assets/cover_aras.jpg'
 import ajnai from '../assets/cover_ajnai.jpg'
 import enesdanijela from '../assets/cover_enesdanijela.jpg'
 import frano from "../assets/frano_cover.jpg";
+import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
+
 
 
 const Home = () => {
     const featuredEvents = [
+        {
+            id: 'bajramsko_sijelo_nek_mirisu_avlije_2026',
+            title: 'Bajramsko sijelo "Nek mirišu avlije"',
+            description: '',
+            date: '22.03.2026.',
+            location: 'Dvorana Behar Vitez, BiH',
+            coverImage: bajramskosijelo,
+            imageCount: 34,
+        },
         {
             id: 'enes_danijela',
             title: 'Enes & Danijela',
@@ -36,15 +47,7 @@ const Home = () => {
             coverImage: ajnai,
             imageCount: 9,
         },
-        {
-            id: 'frano-romari',
-            title: 'Frano Topić - Sport sesija',
-            description: '',
-            date: '31.01.2026.',
-            location: 'Stadion Dolac na Lašvi, BiH',
-            coverImage: frano,
-            imageCount: 6,
-        },
+
     ];
 
     const stats = [

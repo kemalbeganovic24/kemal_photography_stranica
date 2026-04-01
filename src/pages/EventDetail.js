@@ -36,7 +36,43 @@ import colmar from '../assets/colmarcover.JPG'
 import strasburg from '../assets/strasburgcover.JPG'
 import brajzah from '../assets/brajzahcover.JPG'
 import freiburg from '../assets/freiburgcover.JPG'
+import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
 
+//Bajramsko sijelo
+import preporod0 from '../assets/bajramsko_selo_2026/PREPOROD0.jpg'
+import preporod1 from '../assets/bajramsko_selo_2026/PREPOROD1.jpg'
+import preporod2 from '../assets/bajramsko_selo_2026/PREPOROD2.jpg'
+import preporod3 from '../assets/bajramsko_selo_2026/PREPOROD3.jpg'
+import preporod4 from '../assets/bajramsko_selo_2026/PREPOROD4.jpg'
+import preporod6 from '../assets/bajramsko_selo_2026/PREPOROD6.jpg'
+import preporod8 from '../assets/bajramsko_selo_2026/PREPOROD8.jpg'
+import preporod10 from '../assets/bajramsko_selo_2026/PREPOROD10.jpg'
+import preporod11 from '../assets/bajramsko_selo_2026/PREPOROD11.jpg'
+import preporod12 from '../assets/bajramsko_selo_2026/PREPOROD12.jpg'
+import preporod15 from '../assets/bajramsko_selo_2026/PREPOROD15.jpg'
+import preporod16 from '../assets/bajramsko_selo_2026/PREPOROD16.jpg'
+import preporod17 from '../assets/bajramsko_selo_2026/PREPOROD17.jpg'
+import preporod18 from '../assets/bajramsko_selo_2026/PREPOROD18.jpg'
+import preporod20 from '../assets/bajramsko_selo_2026/PREPOROD20.jpg'
+import preporod22 from '../assets/bajramsko_selo_2026/PREPOROD22.jpg'
+import preporod23 from '../assets/bajramsko_selo_2026/PREPOROD23.jpg'
+import preporod24 from '../assets/bajramsko_selo_2026/PREPOROD24.jpg'
+import preporod27 from '../assets/bajramsko_selo_2026/PREPOROD27.jpg'
+import preporod28 from '../assets/bajramsko_selo_2026/PREPOROD28.jpg'
+import preporod29 from '../assets/bajramsko_selo_2026/PREPOROD29.jpg'
+import preporod30 from '../assets/bajramsko_selo_2026/PREPOROD30.jpg'
+import preporod31 from '../assets/bajramsko_selo_2026/PREPOROD31.jpg'
+import preporod32 from '../assets/bajramsko_selo_2026/PREPOROD32.jpg'
+import preporod33 from '../assets/bajramsko_selo_2026/PREPOROD33.jpg'
+import preporod34 from '../assets/bajramsko_selo_2026/PREPOROD34.jpg'
+import preporod35 from '../assets/bajramsko_selo_2026/PREPOROD35.jpg'
+import preporod36 from '../assets/bajramsko_selo_2026/PREPOROD36.jpg'
+import preporod37 from '../assets/bajramsko_selo_2026/PREPOROD37.jpg'
+import preporod38 from '../assets/bajramsko_selo_2026/PREPOROD38.jpg'
+import preporod39 from '../assets/bajramsko_selo_2026/PREPOROD39.jpg'
+import preporod40 from '../assets/bajramsko_selo_2026/PREPOROD40.jpg'
+import preporod41 from '../assets/bajramsko_selo_2026/PREPOROD41.jpg'
+import preporod42 from '../assets/bajramsko_selo_2026/PREPOROD42.jpg'
 
 
 //Testament
@@ -513,6 +549,10 @@ import frano2 from '../assets/frano_romari/frano2.jpg'
 import frano3 from '../assets/frano_romari/frano3.jpg'
 import frano4 from '../assets/frano_romari/frano4.jpg'
 import frano5 from '../assets/frano_romari/frano5.jpg'
+import frano6 from '../assets/frano_romari/frano6.jpg'
+import frano7 from '../assets/frano_romari/frano7.jpg'
+import frano8 from '../assets/frano_romari/frano8.jpg'
+import frano9 from '../assets/frano_romari/frano9.jpg'
 
 //Amila
 import amilap from '../assets/amilap_cover.jpg'
@@ -591,7 +631,6 @@ import farisadna6 from '../assets/faris_adna/fa6.jpg'
 import farisadna7 from '../assets/faris_adna/fa7.jpg'
 import farisadna8 from '../assets/faris_adna/fa8.jpg'
 import farisadna9 from '../assets/faris_adna/fa9.jpg'
-import farisadna10 from '../assets/faris_adna/fa10.jpg'
 
 //Mevle-Hana
 import mevlehana0 from '../assets/mevle_hana/mevle0.jpg'
@@ -617,6 +656,50 @@ const EventDetail = () => {
 
     // Mock event data - in a real app, this would come from an API
     const eventData = {
+        'bajramsko_sijelo_nek_mirisu_avlije_2026': {
+            title: 'Bajramsko sijelo "Nek mirišu avlije"',
+            description: 'Bajramsko sijelo "Nek mirišu avlije" je manifestacija sa tradicijom dugom više od 30 godina. Kontinuitet obilježavanja Bajrama Bošnjačka zajednica kulture općinsko društvo Vitez nastavila je upravo sa ovim kulturno-zabavnim događajem koji je održan 3.dan Ramazanskog Bajrama, u sali Vatrogasnog doma u Starom Vitezu.\n' +
+                'U programu su nastupile sve sekcije koje djeluju u okviru udruženja, a program su obogatili i gosti iz UG "Ajvatovački biseri" iz Prusca.',
+            date: '22.03.2026.',
+            location: 'Dvorana Behar Vitez, BiH',
+            coverImage: bajramskosijelo,
+            images: [
+                { id: '1', src: preporod0, alt: 'Wedding ceremony' },
+                { id: '2', src: preporod1, alt: 'Bride and groom portrait' },
+                { id: '4', src: preporod2, alt: 'Wedding details' },
+                { id: '5', src: preporod3, alt: 'Wedding party' },
+                { id: '6', src: preporod4, alt: 'First dance' },
+                { id: '7', src: preporod6, alt: 'First dance' },
+                { id: '8', src: preporod8, alt: 'First dance' },
+                { id: '9', src: preporod10, alt: 'First dance' },
+                { id: '11', src: preporod11, alt: 'First dance' },
+                { id: '12', src: preporod12, alt: 'First dance' },
+                { id: '14', src: preporod15, alt: 'First dance' },
+                { id: '15', src: preporod16, alt: 'First dance' },
+                { id: '16', src: preporod17, alt: 'First dance' },
+                { id: '17', src: preporod18, alt: 'First dance' },
+                { id: '18', src: preporod20, alt: 'First dance' },
+                { id: '19', src: preporod22, alt: 'First dance' },
+                { id: '20', src: preporod23, alt: 'First dance' },
+                { id: '21', src: preporod24, alt: 'First dance' },
+                { id: '22', src: preporod27, alt: 'First dance' },
+                { id: '23', src: preporod28, alt: 'First dance' },
+                { id: '24', src: preporod29, alt: 'First dance' },
+                { id: '25', src: preporod30, alt: 'First dance' },
+                { id: '26', src: preporod31, alt: 'First dance' },
+                { id: '27', src: preporod32, alt: 'First dance' },
+                { id: '28', src: preporod33, alt: 'First dance' },
+                { id: '29', src: preporod34, alt: 'First dance' },
+                { id: '30', src: preporod35, alt: 'First dance' },
+                { id: '31', src: preporod36, alt: 'First dance' },
+                { id: '32', src: preporod37, alt: 'First dance' },
+                { id: '33', src: preporod38, alt: 'First dance' },
+                { id: '34', src: preporod39, alt: 'First dance' },
+                { id: '35', src: preporod40, alt: 'First dance' },
+                { id: '36', src: preporod41, alt: 'First dance' },
+                { id: '37', src: preporod42, alt: 'First dance' },
+            ],
+        },
         'enes_danijela': {
             title: 'Enes & Danijela',
             description: '',
@@ -676,7 +759,10 @@ const EventDetail = () => {
                 { id: '4', src: frano3, alt: 'Wedding details' },
                 { id: '5', src: frano4, alt: 'Wedding party' },
                 { id: '6', src: frano5, alt: 'Wedding party' },
-
+                { id: '7', src: frano6, alt: 'Bride and groom portrait' },
+                { id: '8', src: frano7, alt: 'Wedding details' },
+                { id: '9', src: frano8, alt: 'Wedding party' },
+                { id: '10', src: frano9, alt: 'Wedding party' },
             ],
         },
         'Zarucivanje_aras': {
