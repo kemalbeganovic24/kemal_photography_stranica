@@ -651,11 +651,30 @@ import tariksajra7 from '../assets/tarik_sajra/tarik7.jpg'
 import tariksajra8 from '../assets/tarik_sajra/tarik8.jpg'
 import tariksajra9 from '../assets/tarik_sajra/tarik9.jpg'
 
+//etnoselo
+import etno0 from '../assets/etno/etno0.jpg'
+import etno1 from '../assets/etno/etno1.jpg'
+import etno2 from '../assets/etno/etno2.jpg'
+import etnoselo from "../assets/etno_cover.jpg";
+
 const EventDetail = () => {
     const { eventId } = useParams();
 
     // Mock event data - in a real app, this would come from an API
     const eventData = {
+        'etno-selo-cardaci2026': {
+            title: 'Etno selo Čardaci',
+            description: 'Probavanje novog objektiva Canon zoom lens 24-70mm f2.8 II USP u Etnom selu Čardaci u Vitezu.',
+            date: '26.04.2026.',
+            location: 'Dvorana Behar Vitez, BiH',
+            coverImage: etnoselo,
+            images: [
+                { id: '1', src: etno0, alt: 'Wedding ceremony' },
+                { id: '2', src: etno1, alt: 'Bride and groom portrait' },
+                { id: '3', src: etno2, alt: 'Bride and groom portrait' },
+
+            ],
+        },
         'bajramsko_sijelo_nek_mirisu_avlije_2026': {
             title: 'Bajramsko sijelo "Nek mirišu avlije"',
             description: 'Bajramsko sijelo "Nek mirišu avlije" je manifestacija sa tradicijom dugom više od 30 godina. Kontinuitet obilježavanja Bajrama Bošnjačka zajednica kulture općinsko društvo Vitez nastavila je upravo sa ovim kulturno-zabavnim događajem koji je održan 3.dan Ramazanskog Bajrama, u sali Vatrogasnog doma u Starom Vitezu.\n' +

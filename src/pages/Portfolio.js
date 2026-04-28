@@ -41,6 +41,7 @@ import belma from '../assets/belma_cover.jpg'
 import harisa from '../assets/harisa_cover.jpg'
 import suana from '../assets/suana_cover.jpg'
 import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
+import etnoselo from "../assets/etno_cover.jpg";
 
 
 
@@ -48,6 +49,15 @@ import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
 
 const Portfolio = () => {
     const allEvents = [
+        {
+            id: 'etno-selo-cardaci2026',
+            title: 'Etno selo Čardaci',
+            description: '',
+            date: '26.04.2026.',
+            location: 'Etno selo Čardaci Vitez, BiH',
+            coverImage: etnoselo,
+            imageCount: 3,
+        },
         {
             id: 'bajramsko_sijelo_nek_mirisu_avlije_2026',
             title: 'Bajramsko sijelo "Nek mirišu avlije"',
