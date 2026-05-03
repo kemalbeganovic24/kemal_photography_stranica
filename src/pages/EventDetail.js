@@ -657,11 +657,126 @@ import etno1 from '../assets/etno/etno1.jpg'
 import etno2 from '../assets/etno/etno2.jpg'
 import etnoselo from "../assets/etno_cover.jpg";
 
+//dovzenica26
+import dovzenica from "../assets/dov_zenica_cover.JPG";
+import dov0 from "../assets/dov_zenica26/fb-01.jpg";
+import dov1 from "../assets/dov_zenica26/fb-02.jpg";
+import dov2 from "../assets/dov_zenica26/fb-03.jpg";
+import dov3 from "../assets/dov_zenica26/fb-04.jpg";
+import dov4 from "../assets/dov_zenica26/fb-05.jpg";
+import dov5 from "../assets/dov_zenica26/fb-06.jpg";
+import dov6 from "../assets/dov_zenica26/fb-07.jpg";
+import dov7 from "../assets/dov_zenica26/fb-08.jpg";
+import dov8 from "../assets/dov_zenica26/fb-09.jpg";
+import dov9 from "../assets/dov_zenica26/fb-10.jpg";
+import dov10 from "../assets/dov_zenica26/fb-11.jpg";
+import dov11 from "../assets/dov_zenica26/fb-12.jpg";
+import dov12 from "../assets/dov_zenica26/fb-13.jpg";
+import dov13 from "../assets/dov_zenica26/fb-14.jpg";
+import dov14 from "../assets/dov_zenica26/fb-15.jpg";
+import dov15 from "../assets/dov_zenica26/fb-16.jpg";
+import dov16 from "../assets/dov_zenica26/fb-17.jpg";
+import dov17 from "../assets/dov_zenica26/fb-18.jpg";
+import dov18 from "../assets/dov_zenica26/fb-19.jpg";
+import dov19 from "../assets/dov_zenica26/fb-20.jpg";
+import dov20 from "../assets/dov_zenica26/fb-21.jpg";
+import dov21 from "../assets/dov_zenica26/fb-22.jpg";
+import dov22 from "../assets/dov_zenica26/fb-23.jpg";
+import dov23 from "../assets/dov_zenica26/fb-24.jpg";
+import dov24 from "../assets/dov_zenica26/fb-25.jpg";
+import dov25 from "../assets/dov_zenica26/fb-26.jpg";
+import dov26 from "../assets/dov_zenica26/fb-27.jpg";
+import dov27 from "../assets/dov_zenica26/fb-28.jpg";
+import dov28 from "../assets/dov_zenica26/fb-29.jpg";
+import dov29 from "../assets/dov_zenica26/fb-30.jpg";
+import dov30 from "../assets/dov_zenica26/fb-31.jpg";
+import dov31 from "../assets/dov_zenica26/fb-32.jpg";
+import dov32 from "../assets/dov_zenica26/fb-33.jpg";
+import dov33 from "../assets/dov_zenica26/fb-34.jpg";
+import dov34 from "../assets/dov_zenica26/fb-35.jpg";
+import dov35 from "../assets/dov_zenica26/fb-36.jpg";
+import dov36 from "../assets/dov_zenica26/fb-37.jpg";
+import dov37 from "../assets/dov_zenica26/fb-38.jpg";
+import dov38 from "../assets/dov_zenica26/fb-39.jpg";
+import dov39 from "../assets/dov_zenica26/fb-40.jpg";
+import dov40 from "../assets/dov_zenica26/fb-41.jpg";
+import dov41 from "../assets/dov_zenica26/fb-42.jpg";
+import dov42 from "../assets/dov_zenica26/fb-43.jpg";
+import dov43 from "../assets/dov_zenica26/fb1-1.jpg";
+import dov44 from "../assets/dov_zenica26/fb1-2.jpg";
+import dov45 from "../assets/dov_zenica26/fb1-3.jpg";
+import dov46 from "../assets/dov_zenica26/fb1-4.jpg";
+import dov47 from "../assets/dov_zenica26/fb1-5.jpg";
+import dov48 from "../assets/dov_zenica26/fb1-6.jpg";
+import dov49 from "../assets/dov_zenica26/fb1-7.jpg";
+
+
+
 const EventDetail = () => {
     const { eventId } = useParams();
 
     // Mock event data - in a real app, this would come from an API
     const eventData = {
+        'dan-otvorenih-vrata-univerziteta-u-zenici-2026': {
+            title: 'Dan otvorenih vrata Univerziteta u Zenici 2026',
+            description: 'Dana 29.04.2026. godine imao sam čast da volontiram kao fotograf ispred Politehničkom fakulteta u Zenici ' +
+                'tokom ovogodišnje manifestacije ,,Dan otvorenih vrata Univerziteta u Zenici". Zadovoljstvo mi je bilo razgovarati s budućim studentima i kolegama, te kroz boje prenijeti duh kreativnosti koji njegujemo na našem fakultetu.',
+            date: '29.04.2026.',
+            location: 'Kampus Univerziteta u Zenici, BiH',
+            coverImage: dovzenica,
+            images: [
+                { id: '1', src: dov0, alt: 'Wedding ceremony' },
+                { id: '2', src: dov1, alt: 'Bride and groom portrait' },
+                { id: '3', src: dov2, alt: 'Bride and groom portrait' },
+                { id: '4', src: dov3, alt: 'Wedding ceremony' },
+                { id: '5', src: dov4, alt: 'Bride and groom portrait' },
+                { id: '6', src: dov5, alt: 'Bride and groom portrait' },
+                { id: '7', src: dov6, alt: 'Wedding ceremony' },
+                { id: '8', src: dov7, alt: 'Bride and groom portrait' },
+                { id: '9', src: dov8, alt: 'Bride and groom portrait' },
+                { id: '10', src: dov9, alt: 'Wedding ceremony' },
+                { id: '11', src: dov10, alt: 'Bride and groom portrait' },
+                { id: '12', src: dov11, alt: 'Bride and groom portrait' },
+                { id: '13', src: dov12, alt: 'Wedding ceremony' },
+                { id: '14', src: dov13, alt: 'Bride and groom portrait' },
+                { id: '15', src: dov14, alt: 'Bride and groom portrait' },
+                { id: '16', src: dov15, alt: 'Wedding ceremony' },
+                { id: '17', src: dov16, alt: 'Bride and groom portrait' },
+                { id: '18', src: dov17, alt: 'Bride and groom portrait' },
+                { id: '19', src: dov18, alt: 'Wedding ceremony' },
+                { id: '20', src: dov19, alt: 'Bride and groom portrait' },
+                { id: '21', src: dov20, alt: 'Bride and groom portrait' },
+                { id: '22', src: dov21, alt: 'Wedding ceremony' },
+                { id: '23', src: dov22, alt: 'Bride and groom portrait' },
+                { id: '24', src: dov23, alt: 'Bride and groom portrait' },
+                { id: '25', src: dov24, alt: 'Wedding ceremony' },
+                { id: '26', src: dov25, alt: 'Bride and groom portrait' },
+                { id: '27', src: dov26, alt: 'Bride and groom portrait' },
+                { id: '28', src: dov27, alt: 'Wedding ceremony' },
+                { id: '29', src: dov28, alt: 'Bride and groom portrait' },
+                { id: '30', src: dov29, alt: 'Bride and groom portrait' },
+                { id: '31', src: dov30, alt: 'Wedding ceremony' },
+                { id: '32', src: dov31, alt: 'Bride and groom portrait' },
+                { id: '33', src: dov32, alt: 'Bride and groom portrait' },
+                { id: '34', src: dov33, alt: 'Wedding ceremony' },
+                { id: '35', src: dov34, alt: 'Bride and groom portrait' },
+                { id: '36', src: dov35, alt: 'Bride and groom portrait' },
+                { id: '37', src: dov36, alt: 'Wedding ceremony' },
+                { id: '38', src: dov37, alt: 'Bride and groom portrait' },
+                { id: '39', src: dov38, alt: 'Bride and groom portrait' },
+                { id: '40', src: dov39, alt: 'Wedding ceremony' },
+                { id: '41', src: dov40, alt: 'Bride and groom portrait' },
+                { id: '42', src: dov41, alt: 'Bride and groom portrait' },
+                { id: '43', src: dov42, alt: 'Wedding ceremony' },
+                { id: '44', src: dov43, alt: 'Bride and groom portrait' },
+                { id: '45', src: dov44, alt: 'Bride and groom portrait' },
+                { id: '46', src: dov45, alt: 'Wedding ceremony' },
+                { id: '47', src: dov46, alt: 'Bride and groom portrait' },
+                { id: '48', src: dov47, alt: 'Bride and groom portrait' },
+                { id: '49', src: dov48, alt: 'Wedding ceremony' },
+                { id: '50', src: dov49, alt: 'Bride and groom portrait' },
+            ],
+        },
         'etno-selo-cardaci2026': {
             title: 'Etno selo Čardaci',
             description: 'Probavanje novog objektiva Canon zoom lens 24-70mm f2.8 II USP u Etnom selu Čardaci u Vitezu.',

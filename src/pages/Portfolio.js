@@ -42,6 +42,7 @@ import harisa from '../assets/harisa_cover.jpg'
 import suana from '../assets/suana_cover.jpg'
 import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
 import etnoselo from "../assets/etno_cover.jpg";
+import dovzenica from "../assets/dov_zenica_cover.JPG";
 
 
 
@@ -49,6 +50,15 @@ import etnoselo from "../assets/etno_cover.jpg";
 
 const Portfolio = () => {
     const allEvents = [
+        {
+            id: 'dan-otvorenih-vrata-univerziteta-u-zenici-2026',
+            title: 'Dan otvorenih vrata Univerziteta u Zenici 2026',
+            description: '',
+            date: '29.04.2026.',
+            location: 'Kampus Univerziteta u Zenici, BiH',
+            coverImage: dovzenica,
+            imageCount: 50,
+        },
         {
             id: 'etno-selo-cardaci2026',
             title: 'Etno selo Čardaci',

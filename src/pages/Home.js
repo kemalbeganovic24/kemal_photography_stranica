@@ -15,11 +15,21 @@ import ajnai from '../assets/cover_ajnai.jpg'
 import enesdanijela from '../assets/cover_enesdanijela.jpg'
 import frano from "../assets/frano_cover.jpg";
 import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
+import dovzenica from "../assets/dov_zenica_cover.JPG";
 
 
 
 const Home = () => {
     const featuredEvents = [
+        {
+            id: 'dan-otvorenih-vrata-univerziteta-u-zenici-2026',
+            title: 'Dan otvorenih vrata Univerziteta u Zenici 2026',
+            description: '',
+            date: '29.04.2026.',
+            location: 'Kampus Univerziteta u Zenici, BiH',
+            coverImage: dovzenica,
+            imageCount: 50,
+        },
         {
             id: 'bajramsko_sijelo_nek_mirisu_avlije_2026',
             title: 'Bajramsko sijelo "Nek mirišu avlije"',
@@ -38,15 +48,7 @@ const Home = () => {
             coverImage: enesdanijela,
             imageCount: 15,
         },
-        {
-            id: 'Ajna_islamovic_slike',
-            title: 'Ajna Islamović - portret sesija',
-            description: '',
-            date: '06.02.2026.',
-            location: 'Etno selo Čardaci Vitez, BiH',
-            coverImage: ajnai,
-            imageCount: 9,
-        },
+
 
     ];
 
