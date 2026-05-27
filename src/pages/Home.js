@@ -16,37 +16,40 @@ import enesdanijela from '../assets/cover_enesdanijela.jpg'
 import frano from "../assets/frano_cover.jpg";
 import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
 import dovzenica from "../assets/dov_zenica_cover.JPG";
+import mss26 from "../assets/mss_cover.jpg";
+import ahmedv from "../assets/ahmed_cover.jpg";
+import amilap from "../assets/amilapezer_cover.jpg";
 
 
 
 const Home = () => {
     const featuredEvents = [
         {
-            id: 'dan-otvorenih-vrata-univerziteta-u-zenici-2026',
-            title: 'Dan otvorenih vrata Univerziteta u Zenici 2026',
+            id: 'matura-msst2026',
+            title: 'Matura 2026. Mješovite srednje škole Travnik',
             description: '',
-            date: '29.04.2026.',
-            location: 'Kampus Univerziteta u Zenici, BiH',
-            coverImage: dovzenica,
-            imageCount: 50,
+            date: '23.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: mss26,
+            imageCount: 5,
         },
         {
-            id: 'bajramsko_sijelo_nek_mirisu_avlije_2026',
-            title: 'Bajramsko sijelo "Nek mirišu avlije"',
+            id: 'ahmed-varupa-matura-msst2026',
+            title: 'Ahmed Varupa Matura 2026',
             description: '',
-            date: '22.03.2026.',
-            location: 'Dvorana Behar Vitez, BiH',
-            coverImage: bajramskosijelo,
-            imageCount: 34,
+            date: '23.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: ahmedv,
+            imageCount: 7,
         },
         {
-            id: 'enes_danijela',
-            title: 'Enes & Danijela',
+            id: 'amila-pezer-matura-msst2026',
+            title: 'Amila Pezer Matura 2026',
             description: '',
-            date: '07.02.2026.',
-            location: 'Etno selo Čardaci Vitez, BiH',
-            coverImage: enesdanijela,
-            imageCount: 15,
+            date: '23.05.2026.',
+            location: 'Etno selo Čardaci Vitez, Travnik, BiH',
+            coverImage: amilap,
+            imageCount: 12,
         },
 
 

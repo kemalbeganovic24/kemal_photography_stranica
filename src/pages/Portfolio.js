@@ -41,15 +41,93 @@ import belma from '../assets/belma_cover.jpg'
 import harisa from '../assets/harisa_cover.jpg'
 import suana from '../assets/suana_cover.jpg'
 import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
-import etnoselo from "../assets/etno_cover.jpg";
 import dovzenica from "../assets/dov_zenica_cover.JPG";
-
-
-
+import etnoselo from "../assets/etno_cover.jpg";
+import sulja from "../assets/sulja_cover.jpg";
+import amiladajic from "../assets/amiladajic_cover.jpg";
+import amarh from "../assets/amarhodzic_cover.jpg";
+import ednat from "../assets/ednat_cover.jpg";
+import msts26 from "../assets/msts26_cover.jpg";
+import mss26 from "../assets/mss_cover.jpg";
+import ahmedv from "../assets/ahmed_cover.jpg";
+import amilap from "../assets/amilapezer_cover.jpg";
 
 
 const Portfolio = () => {
     const allEvents = [
+        {
+            id: 'matura-msst2026',
+            title: 'Matura 2026. Mješovite srednje škole Travnik',
+            description: '',
+            date: '23.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: mss26,
+            imageCount: 5,
+        },
+        {
+            id: 'ahmed-varupa-matura-msst2026',
+            title: 'Ahmed Varupa Matura 2026',
+            description: '',
+            date: '23.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: ahmedv,
+            imageCount: 7,
+        },
+        {
+            id: 'amila-pezer-matura-msst2026',
+            title: 'Amila Pezer Matura 2026',
+            description: '',
+            date: '23.05.2026.',
+            location: 'Etno selo Čardaci Vitez, Travnik, BiH',
+            coverImage: amilap,
+            imageCount: 12,
+        },
+        {
+            id: 'amila-dajic-matura-msst2026',
+            title: 'Edna Tulum Matura 2026',
+            description: '',
+            date: '29.04.2026.',
+            location: 'Travnik, BiH',
+            coverImage: amiladajic,
+            imageCount: 12,
+        },
+        {
+            id: 'edin-suljevic-matura-msst2026',
+            title: 'Edin Suljević Matura 2026',
+            description: '',
+            date: '23.05.2026.',
+            location: 'Etno selo Čardaci Vitez, Travnik, BiH',
+            coverImage: sulja,
+            imageCount: 11,
+        },
+        {
+            id: 'edna-tulum-matura-mseus2026',
+            title: 'Edna Tulum Matura 2026',
+            description: '',
+            date: '22.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: ednat,
+            imageCount: 4,
+        },
+        {
+            id: 'matura-msts2026',
+            title: 'Matura 2026. Mješovite srednje tehničke škole Travnik',
+            description: '',
+            date: '16.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: msts26,
+            imageCount: 22,
+        },
+
+        {
+            id: 'amar-hodzic-matura-msts2026',
+            title: 'Amar Hodžić Matura 2026',
+            description: '',
+            date: '16.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: amarh,
+            imageCount: 8,
+        },
         {
             id: 'dan-otvorenih-vrata-univerziteta-u-zenici-2026',
             title: 'Dan otvorenih vrata Univerziteta u Zenici 2026',
