@@ -51,10 +51,29 @@ import msts26 from "../assets/msts26_cover.jpg";
 import mss26 from "../assets/mss_cover.jpg";
 import ahmedv from "../assets/ahmed_cover.jpg";
 import amilap from "../assets/amilapezer_cover.jpg";
-
+import ednanbalta from "../assets/balta_cover.jpg";
+import larisbzk from "../assets/laris_cover.jpg";
 
 const Portfolio = () => {
     const allEvents = [
+        {
+            id: 'ednan-baltic-sesija-2026',
+            title: 'Ednan Baltić - sesija slikanja',
+            description: '',
+            date: '31.05.2026.',
+            location: 'Vitez, BiH',
+            coverImage: ednanbalta,
+            imageCount: 4,
+        },
+        {
+            id: 'tradicionalno_bajramsko_sijelo_nek_mirisu_avlije_2026',
+            title: 'Tradicionlano Bajramsko sijelo "Nek mirišu avlije"',
+            description: '',
+            date: '29.05.2026.',
+            location: 'Vitez, BiH',
+            coverImage: larisbzk,
+            imageCount: 24,
+        },
         {
             id: 'matura-msst2026',
             title: 'Matura 2026. Mješovite srednje škole Travnik',
@@ -84,7 +103,7 @@ const Portfolio = () => {
         },
         {
             id: 'amila-dajic-matura-msst2026',
-            title: 'Edna Tulum Matura 2026',
+            title: 'Amila Dajić Matura 2026',
             description: '',
             date: '29.04.2026.',
             location: 'Travnik, BiH',
@@ -98,7 +117,7 @@ const Portfolio = () => {
             date: '23.05.2026.',
             location: 'Etno selo Čardaci Vitez, Travnik, BiH',
             coverImage: sulja,
-            imageCount: 11,
+            imageCount: 8,
         },
         {
             id: 'edna-tulum-matura-mseus2026',

@@ -710,6 +710,141 @@ import dov47 from "../assets/dov_zenica26/fb1-5.jpg";
 import dov48 from "../assets/dov_zenica26/fb1-6.jpg";
 import dov49 from "../assets/dov_zenica26/fb1-7.jpg";
 
+//amarhodzic
+import ah0 from "../assets/amarhodzicmatura26/amarh0.jpg";
+import ah1 from "../assets/amarhodzicmatura26/amarh1.jpg";
+import ah2 from "../assets/amarhodzicmatura26/amarh2.jpg";
+import ah3 from "../assets/amarhodzicmatura26/amarh3.jpg";
+import ah4 from "../assets/amarhodzicmatura26/amarh4.jpg";
+import ah5 from "../assets/amarhodzicmatura26/amarh5.jpg";
+import ah6 from "../assets/amarhodzicmatura26/amarh6.jpg";
+import ah7 from "../assets/amarhodzicmatura26/amarh7.jpg";
+
+//mststravnik 2026
+import msts0 from "../assets/maturamsts2026/msts26_0.jpg";
+import msts1 from "../assets/maturamsts2026/msts26_1.jpg";
+import msts2 from "../assets/maturamsts2026/msts26_2.jpg";
+import msts3 from "../assets/maturamsts2026/msts26_3.jpg";
+import msts4 from "../assets/maturamsts2026/msts26_4.jpg";
+import msts5 from "../assets/maturamsts2026/msts26_5.jpg";
+import msts6 from "../assets/maturamsts2026/msts26_6.jpg";
+import msts7 from "../assets/maturamsts2026/msts26_7.jpg";
+import msts8 from "../assets/maturamsts2026/msts26_8.jpg";
+import msts9 from "../assets/maturamsts2026/msts26_9.jpg";
+import msts10 from "../assets/maturamsts2026/msts26_10.jpg";
+import msts11 from "../assets/maturamsts2026/msts26_11.jpg";
+import msts12 from "../assets/maturamsts2026/msts26_12.jpg";
+import msts13 from "../assets/maturamsts2026/msts26_13.jpg";
+import msts14 from "../assets/maturamsts2026/msts26_14.jpg";
+import msts15 from "../assets/maturamsts2026/msts26_15.jpg";
+import msts16 from "../assets/maturamsts2026/msts26_16.jpg";
+import msts17 from "../assets/maturamsts2026/msts26_17.jpg";
+import msts18 from "../assets/maturamsts2026/msts26_18.jpg";
+import msts19 from "../assets/maturamsts2026/msts26_19.jpg";
+import msts20 from "../assets/maturamsts2026/msts26_20.jpg";
+import msts21 from "../assets/maturamsts2026/msts26_21.jpg";
+
+//edna tulum matura 2026
+import et0 from "../assets/ednatulum/ednat0.jpg";
+import et1 from "../assets/ednatulum/ednat1.jpg";
+import et2 from "../assets/ednatulum/ednat2.jpg";
+import et3 from "../assets/ednatulum/ednat3.jpg";
+
+//edin sulja 2026
+import es0 from "../assets/edinahmedmss26/sulja0.jpg";
+import es1 from "../assets/edinahmedmss26/sulja1.jpg";
+import es2 from "../assets/edinahmedmss26/sulja2.jpg";
+import es3 from "../assets/edinahmedmss26/sulja3.jpg";
+import es4 from "../assets/edinahmedmss26/sulja4.jpg";
+
+
+//amila dajic 2026
+import ad0 from "../assets/amiladajicmss26/amilad0.jpg";
+import ad1 from "../assets/amiladajicmss26/amilad1.jpg";
+import ad2 from "../assets/amiladajicmss26/amilad2.jpg";
+import ad3 from "../assets/amiladajicmss26/amilad3.jpg";
+import ad4 from "../assets/amiladajicmss26/amilad4.jpg";
+import ad5 from "../assets/amiladajicmss26/amilad5.jpg";
+import ad6 from "../assets/amiladajicmss26/amilad6.jpg";
+import ad7 from "../assets/amiladajicmss26/amilad7.jpg";
+import ad8 from "../assets/amiladajicmss26/amilad8.jpg";
+import ad9 from "../assets/amiladajicmss26/amilad9.jpg";
+import ad10 from "../assets/amiladajicmss26/amilad10.jpg";
+import ad11 from "../assets/amiladajicmss26/amilad11.jpg";
+
+//amila pezer 2026 matura
+import ap0 from "../assets/amilapezermatura26/amilap0.jpg";
+import ap1 from "../assets/amilapezermatura26/amilap1.jpg";
+import ap2 from "../assets/amilapezermatura26/amilap2.jpg";
+import ap3 from "../assets/amilapezermatura26/amilap3.jpg";
+import ap4 from "../assets/amilapezermatura26/amilap4.jpg";
+import ap5 from "../assets/amilapezermatura26/amilap5.jpg";
+import ap6 from "../assets/amilapezermatura26/amilap6.jpg";
+import ap7 from "../assets/amilapezermatura26/amilap7.jpg";
+import ap8 from "../assets/amilapezermatura26/amilap8.jpg";
+import ap9 from "../assets/amilapezermatura26/amilap9.jpg";
+import ap10 from "../assets/amilapezermatura26/amilap10.jpg";
+import ap11 from "../assets/amilapezermatura26/amilap11.jpg";
+
+//ahmed varupa matura 2026
+import av0 from "../assets/edinahmedmss26/ahmedv0.jpg";
+import av1 from "../assets/edinahmedmss26/ahmedv1.jpg";
+import av2 from "../assets/edinahmedmss26/ahmedv2.jpg";
+import av3 from "../assets/edinahmedmss26/ahmedv3.jpg";
+import ae1 from "../assets/edinahmedmss26/as0.jpg";
+import ae2 from "../assets/edinahmedmss26/as0.jpg";
+import ae3 from "../assets/edinahmedmss26/as0.jpg";
+
+
+//mss travnik 2026
+import msst0 from "../assets/maturamss26/msst260.jpg";
+import msst1 from "../assets/maturamss26/msst261.jpg";
+import msst2 from "../assets/maturamss26/msst262.jpg";
+import msst3 from "../assets/maturamss26/msst263.jpg";
+import msst4 from "../assets/maturamss26/msst264.jpg";
+
+//tbs bzk 2026
+import tbs0 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-01.jpg";
+import tbs1 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-02.jpg";
+import tbs2 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-03.jpg";
+import tbs3 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-04.jpg";
+import tbs4 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-05.jpg";
+import tbs5 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-06.jpg";
+import tbs6 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-07.jpg";
+import tbs7 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-08.jpg";
+import tbs8 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-09.jpg";
+import tbs9 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-10.jpg";
+import tbs10 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-11.jpg";
+import tbs11 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-12.jpg";
+import tbs12 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-13.jpg";
+import tbs13 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-14.jpg";
+import tbs14 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-15.jpg";
+import tbs15 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-16.jpg";
+import tbs16 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-17.jpg";
+import tbs17 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-18.jpg";
+import tbs18 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-19.jpg";
+import tbs19 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-20.jpg";
+import tbs20 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-21.jpg";
+import tbs21 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-22.jpg";
+import tbs22 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-23.jpg";
+import tbs23 from "../assets/bajramskosijelo-kurban2026/bajramskosijelo-kurban2026-24.jpg";
+//balta 2026
+import balta0 from "../assets/ednan baltic26/balta0.jpg";
+import balta1 from "../assets/ednan baltic26/balta1.jpg";
+import balta2 from "../assets/ednan baltic26/balta2.jpg";
+import balta3 from "../assets/ednan baltic26/balta3.jpg";
+
+
+import amarh from "../assets/amarhodzic_cover.jpg";
+import msts26 from "../assets/msts26_cover.jpg";
+import ednat from "../assets/ednat_cover.jpg";
+import sulja from "../assets/sulja_cover.jpg";
+import amiladajic from "../assets/amiladajic_cover.jpg";
+import ahmedv from "../assets/ahmed_cover.jpg";
+import mss26 from "../assets/mss_cover.jpg";
+import larisbzk from "../assets/laris_cover.jpg";
+import ednanbalta from "../assets/balta_cover.jpg";
+
 
 
 const EventDetail = () => {
@@ -717,6 +852,212 @@ const EventDetail = () => {
 
     // Mock event data - in a real app, this would come from an API
     const eventData = {
+
+        'ednan-baltic-sesija-2026': {
+            title: 'Ednan Baltić - sesija slikanja',
+            description: '',
+            date: '31.05.2026.',
+            location: 'Vitez, BiH',
+            coverImage: ednanbalta,
+            images: [
+                { id: '1', src: balta0, alt: 'Wedding ceremony' },
+                { id: '2', src: balta1, alt: 'Bride and groom portrait' },
+                { id: '3', src: balta2, alt: 'Bride and groom portrait' },
+                { id: '4', src: balta3, alt: 'Wedding ceremony' },
+            ],
+        },
+        'tradicionalno_bajramsko_sijelo_nek_mirisu_avlije_2026': {
+            title: 'Tradicionlano Bajramsko sijelo "Nek mirišu avlije"',
+            description: '',
+            date: '29.05.2026.',
+            location: 'Vitez, BiH',
+            coverImage: larisbzk,
+            imageCount: 24,
+            images: [
+                { id: '1', src: tbs0, alt: 'Wedding ceremony' },
+                { id: '2', src: tbs1, alt: 'Bride and groom portrait' },
+                { id: '3', src: tbs2, alt: 'Bride and groom portrait' },
+                { id: '4', src: tbs3, alt: 'Wedding ceremony' },
+                { id: '5', src: tbs4, alt: 'Bride and groom portrait' },
+                { id: '6', src: tbs5, alt: 'Bride and groom portrait' },
+                { id: '7', src: tbs6, alt: 'Wedding ceremony' },
+                { id: '8', src: tbs7, alt: 'Bride and groom portrait' },
+                { id: '9', src: tbs8, alt: 'Bride and groom portrait' },
+                { id: '10', src: tbs9, alt: 'Wedding ceremony' },
+                { id: '11', src: tbs10, alt: 'Bride and groom portrait' },
+                { id: '12', src: tbs11, alt: 'Bride and groom portrait' },
+                { id: '13', src: tbs12, alt: 'Wedding ceremony' },
+                { id: '14', src: tbs13, alt: 'Bride and groom portrait' },
+                { id: '15', src: tbs14, alt: 'Bride and groom portrait' },
+                { id: '16', src: tbs15, alt: 'Wedding ceremony' },
+                { id: '17', src: tbs16, alt: 'Bride and groom portrait' },
+                { id: '18', src: tbs17, alt: 'Bride and groom portrait' },
+                { id: '19', src: tbs18, alt: 'Wedding ceremony' },
+                { id: '20', src: tbs19, alt: 'Bride and groom portrait' },
+                { id: '21', src: tbs20, alt: 'Bride and groom portrait' },
+                { id: '22', src: tbs21, alt: 'Wedding ceremony' },
+                { id: '23', src: tbs22, alt: 'Bride and groom portrait' },
+                { id: '24', src: tbs23, alt: 'Wedding ceremony' },
+            ],
+        },
+        'matura-msst2026': {
+            title: 'Matura 2026. Mješovite srednje škole Travnik',
+            description: '',
+            date: '23.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: mss26,
+            images: [
+                { id: '1', src: msst0, alt: 'Wedding ceremony' },
+                { id: '2', src: msst1, alt: 'Bride and groom portrait' },
+                { id: '3', src: msst2, alt: 'Bride and groom portrait' },
+                { id: '4', src: msst3, alt: 'Wedding ceremony' },
+                { id: '5', src: msst4, alt: 'Bride and groom portrait' },
+            ],
+        },
+        'ahmed-varupa-matura-msst2026': {
+            title: 'Ahmed Varupa Matura 2026',
+            description: '',
+            date: '23.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: ahmedv,
+            images: [
+                { id: '1', src: av0, alt: 'Wedding ceremony' },
+                { id: '2', src: av1, alt: 'Bride and groom portrait' },
+                { id: '3', src: av2, alt: 'Bride and groom portrait' },
+                { id: '4', src: av3, alt: 'Wedding ceremony' },
+                { id: '5', src: ae1, alt: 'Bride and groom portrait' },
+                { id: '6', src: ae2, alt: 'Bride and groom portrait' },
+                { id: '7', src: ae3, alt: 'Wedding ceremony' },
+
+
+            ],
+        },
+        'amila-pezer-matura-msst2026': {
+            title: 'Amila Pezer Matura 2026',
+            description: '',
+            date: '23.05.2026.',
+            location: 'Etno selo Čardaci Vitez, Travnik, BiH',
+            coverImage: amilap,
+            images: [
+                { id: '1', src: ap0, alt: 'Wedding ceremony' },
+                { id: '2', src: ap1, alt: 'Bride and groom portrait' },
+                { id: '3', src: ap2, alt: 'Bride and groom portrait' },
+                { id: '4', src: ap3, alt: 'Wedding ceremony' },
+                { id: '5', src: ap4, alt: 'Bride and groom portrait' },
+                { id: '6', src: ap5, alt: 'Bride and groom portrait' },
+                { id: '7', src: ap6, alt: 'Wedding ceremony' },
+                { id: '8', src: ap7, alt: 'Bride and groom portrait' },
+                { id: '9', src: ap8, alt: 'Bride and groom portrait' },
+                { id: '10', src: ap9, alt: 'Wedding ceremony' },
+                { id: '11', src: ap10, alt: 'Bride and groom portrait' },
+                { id: '12', src: ap11, alt: 'Bride and groom portrait' },
+
+            ],
+        },
+        'amila-dajic-matura-msst2026': {
+            title: 'Amila Dajić Matura 2026',
+            description: '',
+            date: '29.04.2026.',
+            location: 'Travnik, BiH',
+            coverImage: amiladajic,
+            images: [
+                { id: '1', src: ad0, alt: 'Wedding ceremony' },
+                { id: '2', src: ad1, alt: 'Bride and groom portrait' },
+                { id: '3', src: ad2, alt: 'Bride and groom portrait' },
+                { id: '4', src: ad3, alt: 'Wedding ceremony' },
+                { id: '5', src: ad5, alt: 'Bride and groom portrait' },
+                { id: '6', src: ad6, alt: 'Bride and groom portrait' },
+                { id: '7', src: ad7, alt: 'Wedding ceremony' },
+                { id: '8', src: ad8, alt: 'Bride and groom portrait' },
+                { id: '9', src: ad9, alt: 'Bride and groom portrait' },
+                { id: '10', src: ad10, alt: 'Wedding ceremony' },
+                { id: '11', src: ad11, alt: 'Bride and groom portrait' },
+                { id: '12', src: ad4, alt: 'Bride and groom portrait' },
+
+            ],
+        },
+        'edin-suljevic-matura-msst2026': {
+            title: 'Edin Suljević Matura 2026',
+            description: '',
+            date: '23.05.2026.',
+            location: 'Etno selo Čardaci Vitez, Travnik, BiH',
+            coverImage: sulja,
+            images: [
+                { id: '1', src: es0, alt: 'Wedding ceremony' },
+                { id: '2', src: es1, alt: 'Bride and groom portrait' },
+                { id: '3', src: es2, alt: 'Bride and groom portrait' },
+                { id: '4', src: es3, alt: 'Wedding ceremony' },
+                { id: '5', src: ae1, alt: 'Bride and groom portrait' },
+                { id: '6', src: ae2, alt: 'Bride and groom portrait' },
+                { id: '7', src: ae3, alt: 'Wedding ceremony' },
+                { id: '8', src: es4, alt: 'Wedding ceremony' },
+
+
+            ],
+        },
+        'edna-tulum-matura-mseus2026': {
+            title: 'Edna Tulum Matura 2026',
+            description: '',
+            date: '22.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: ednat,
+            images: [
+                { id: '1', src: et0, alt: 'Wedding ceremony' },
+                { id: '2', src: et1, alt: 'Bride and groom portrait' },
+                { id: '3', src: et2, alt: 'Bride and groom portrait' },
+                { id: '4', src: et3, alt: 'Wedding ceremony' },
+            ],
+        },
+        'matura-msts2026': {
+            title: 'Matura 2026. Mješovite srednje tehničke škole Travnik',
+            description: '',
+            date: '16.05.2026.',
+            location: 'Travnik, BiH',
+            imageCount: 22,
+            images: [
+                { id: '1', src: msts0, alt: 'Wedding ceremony' },
+                { id: '2', src: msts1, alt: 'Bride and groom portrait' },
+                { id: '3', src: msts2, alt: 'Bride and groom portrait' },
+                { id: '4', src: msts3, alt: 'Wedding ceremony' },
+                { id: '5', src: msts4, alt: 'Bride and groom portrait' },
+                { id: '6', src: msts5, alt: 'Bride and groom portrait' },
+                { id: '7', src: msts6, alt: 'Wedding ceremony' },
+                { id: '8', src: msts7, alt: 'Bride and groom portrait' },
+                { id: '9', src: msts8, alt: 'Bride and groom portrait' },
+                { id: '10', src: msts9, alt: 'Wedding ceremony' },
+                { id: '11', src: msts10, alt: 'Bride and groom portrait' },
+                { id: '12', src: msts11, alt: 'Bride and groom portrait' },
+                { id: '13', src: msts12, alt: 'Wedding ceremony' },
+                { id: '14', src: msts13, alt: 'Bride and groom portrait' },
+                { id: '15', src: msts14, alt: 'Bride and groom portrait' },
+                { id: '16', src: msts15, alt: 'Wedding ceremony' },
+                { id: '17', src: msts16, alt: 'Bride and groom portrait' },
+                { id: '18', src: msts17, alt: 'Bride and groom portrait' },
+                { id: '19', src: msts18, alt: 'Wedding ceremony' },
+                { id: '20', src: msts19, alt: 'Bride and groom portrait' },
+                { id: '21', src: msts20, alt: 'Bride and groom portrait' },
+                { id: '22', src: msts21, alt: 'Wedding ceremony' },
+
+            ],
+        },
+        'amar-hodzic-matura-msts2026': {
+            title: 'Amar Hodžić Matura 2026',
+            description: '',
+            date: '16.05.2026.',
+            location: 'Travnik, BiH',
+            coverImage: amarh,
+            images: [
+                { id: '1', src: ah0, alt: 'Wedding ceremony' },
+                { id: '2', src: ah1, alt: 'Bride and groom portrait' },
+                { id: '3', src: ah2, alt: 'Bride and groom portrait' },
+                { id: '4', src: ah3, alt: 'Wedding ceremony' },
+                { id: '5', src: ah4, alt: 'Bride and groom portrait' },
+                { id: '6', src: ah5, alt: 'Bride and groom portrait' },
+                { id: '7', src: ah6, alt: 'Wedding ceremony' },
+                { id: '8', src: ah7, alt: 'Bride and groom portrait' },
+            ],
+        },
+
         'dan-otvorenih-vrata-univerziteta-u-zenici-2026': {
             title: 'Dan otvorenih vrata Univerziteta u Zenici 2026',
             description: 'Dana 29.04.2026. godine imao sam čast da volontiram kao fotograf ispred Politehničkom fakulteta u Zenici ' +

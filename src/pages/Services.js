@@ -1,8 +1,19 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Camera, Users, Building, Heart, Star, Clock } from 'lucide-react';
+import { Camera, Users, Building, Heart, Star, Clock, Disc, Zap, Layers, ShieldCheck } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import kamera from "../assets/eos1200d.jpg";
+import kamera1 from "../assets/760d.jpg";
+
+import canon from "../assets/objektiv1.jpg";
+import canon1 from "../assets/objektiv2.jpg";
+import canon2 from "../assets/objektiv3.jpg";
+import canon3 from "../assets/objektiv4.jpg";
+import canon4 from "../assets/objektiv5.jpg";
+
+import godox from "../assets/godox.jpg";
+import tripod from "../assets/tripod.jpg";
 
 const Services = () => {
     const services = [
@@ -35,6 +46,35 @@ const Services = () => {
             price: 'Na upit',
         },
     ];
+    const equipment = [
+        {
+            category: 'Kamere',
+            icon: Camera,
+            items: [
+                { name: 'Canon EOS 760D', image: kamera1 },
+                { name: 'Canon EOS 1200D', image: kamera },
+            ],
+        },
+        {
+            category: 'Canon EF i EF-S objektivi',
+            icon: Disc,
+            items: [
+                { name: 'EF 24-70mm f/2.8 L USM', image: canon },
+                { name: 'EF-S 55-250mm 1:4-5.6', image: canon4 },
+                { name: 'EF 35-105mm 1:4-5.5-5.6', image: canon3 },
+                { name: 'EF 50mm 1:1.8', image: canon2 },
+                { name: 'EF-S 10-18mm', image: canon1},
+            ],
+        },
+        {
+            category: 'Osvetljenje i oprema',
+            icon: Zap,
+            items: [
+                { name: 'GodoX TT600', image: godox },
+                { name: 'Tripod PLOKANA PK-9990', image: tripod },
+            ],
+        },
+    ];
 
     return (
         <div className="min-h-screen bg-white">
@@ -53,6 +93,66 @@ const Services = () => {
                         </h1>
 
                     </motion.div>
+                </div>
+            </section>
+
+            {/* Equipment Section */}
+            <section className="py-20 bg-slate-950 text-white overflow-hidden relative">
+                <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+                    <div className="absolute top-[-10%] right-[-10%] w-96 h-96 bg-fuchsia-600 rounded-full blur-3xl"></div>
+                    <div className="absolute bottom-[-10%] left-[-10%] w-96 h-96 bg-orange-500 rounded-full blur-3xl"></div>
+                </div>
+
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        className="text-center mb-16"
+                    >
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">Fotografska oprema</h2>
+                        <p className="text-xl text-gray-400 max-w-2xl mx-auto">
+                            Koristimo vrhunsku Canon optiku i profesionalna tijela kako bismo osigurali da svaki piksel na vašim fotografijama bude savršen.
+                        </p>
+                    </motion.div>
+
+                    <div className="space-y-20">
+                        {equipment.map((group, groupIndex) => (
+                            <div key={group.category}>
+                                <div className="flex items-center gap-4 mb-8">
+                                    <div className="p-2 bg-white/10 rounded-lg">
+                                        <group.icon className="h-6 w-6 text-fuchsia-500" />
+                                    </div>
+                                    <h3 className="text-2xl font-bold">{group.category}</h3>
+                                </div>
+
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                                    {group.items.map((item, itemIndex) => (
+                                        <motion.div
+                                            key={item.name}
+                                            initial={{ opacity: 0, y: 20 }}
+                                            whileInView={{ opacity: 1, y: 0 }}
+                                            transition={{ delay: itemIndex * 0.1 }}
+                                            className="group relative bg-white/5 rounded-2xl overflow-hidden border border-white/10 hover:border-fuchsia-500/50 transition-all duration-300"
+                                        >
+                                            <div className="aspect-[4/3] overflow-hidden">
+                                                <img
+                                                    src={item.image}
+                                                    alt={item.name}
+                                                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                                />
+                                            </div>
+                                            <div className="p-4 bg-gradient-to-t from-black/80 to-transparent absolute bottom-0 left-0 right-0">
+                                                <p className="text-sm font-medium text-white flex items-center gap-2">
+                                                    <ShieldCheck className="h-4 w-4 text-fuchsia-500" />
+                                                    {item.name}
+                                                </p>
+                                            </div>
+                                        </motion.div>
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </section>
 

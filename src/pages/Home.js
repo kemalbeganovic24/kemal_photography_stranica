@@ -19,28 +19,30 @@ import dovzenica from "../assets/dov_zenica_cover.JPG";
 import mss26 from "../assets/mss_cover.jpg";
 import ahmedv from "../assets/ahmed_cover.jpg";
 import amilap from "../assets/amilapezer_cover.jpg";
+import ednanbalta from "../assets/balta_cover.jpg";
+import larisbzk from "../assets/laris_cover.jpg";
 
 
 
 const Home = () => {
     const featuredEvents = [
         {
-            id: 'matura-msst2026',
-            title: 'Matura 2026. Mješovite srednje škole Travnik',
+            id: 'ednan-baltic-sesija-2026',
+            title: 'Ednan Baltić - sesija slikanja',
             description: '',
-            date: '23.05.2026.',
-            location: 'Travnik, BiH',
-            coverImage: mss26,
-            imageCount: 5,
+            date: '31.05.2026.',
+            location: 'Vitez, BiH',
+            coverImage: ednanbalta,
+            imageCount: 4,
         },
         {
-            id: 'ahmed-varupa-matura-msst2026',
-            title: 'Ahmed Varupa Matura 2026',
+            id: 'tradicionalno_bajramsko_sijelo_nek_mirisu_avlije_2026',
+            title: 'Tradicionlano Bajramsko sijelo "Nek mirišu avlije"',
             description: '',
-            date: '23.05.2026.',
-            location: 'Travnik, BiH',
-            coverImage: ahmedv,
-            imageCount: 7,
+            date: '29.05.2026.',
+            location: 'Vitez, BiH',
+            coverImage: larisbzk,
+            imageCount: 24,
         },
         {
             id: 'amila-pezer-matura-msst2026',
