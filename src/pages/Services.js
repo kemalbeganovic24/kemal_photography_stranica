@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { Camera, Users, Building, Heart, Star, Clock, Disc, Zap, Layers, ShieldCheck } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import ReactGA from 'react-ga4';
+
 import kamera from "../assets/eos1200d.jpg";
 import kamera1 from "../assets/760d.jpg";
 
@@ -76,6 +78,15 @@ const Services = () => {
         },
     ];
 
+    const trackServiceClick = (serviceTitle) => {
+        ReactGA.event({
+            action: 'click_service_card',
+            params: {
+                service_name: serviceTitle
+            }
+        });
+    };
+
     return (
         <div className="min-h-screen bg-white">
             <Header />
@@ -91,7 +102,6 @@ const Services = () => {
                         <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
                             Usluge
                         </h1>
-
                     </motion.div>
                 </div>
             </section>
@@ -166,7 +176,8 @@ const Services = () => {
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: index * 0.2 }}
-                                className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
+                                onClick={() => trackServiceClick(service.title)}
+                                className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 cursor-pointer"
                             >
                                 <div className="flex items-center mb-6">
                                     <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-r from-fuchsia-600 to-orange-500 text-white rounded-lg mr-4">
@@ -191,8 +202,6 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-
-
 
             <Footer />
         </div>

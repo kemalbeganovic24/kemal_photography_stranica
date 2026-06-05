@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import ReactGA from 'react-ga4';
 
+ReactGA.initialize('G-3KMEG63KRE');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

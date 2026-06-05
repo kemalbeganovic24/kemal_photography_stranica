@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, MapPin, Camera } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ImageGallery from '../components/ImageGallery';
+import ReactGA from 'react-ga4';
+
+
+
 import folklor from '../assets/cover_bzk.jpg'
 import ilahija from '../assets/cover_nocilahija.JPG'
 import testament from '../assets/cover_testamnet.jpg'
@@ -2026,12 +2030,27 @@ const EventDetail = () => {
         },
     };
 
+
+
     const event = eventData[eventId];
+
+    useEffect(() => {
+        if (event) {
+            ReactGA.event({
+                action: 'view_album',
+                params: {
+                    album_id: eventId,
+                    album_title: event.title,
+                    album_location: event.location
+                }
+            });
+        }
+    }, [eventId, event]);
 
     if (!event) {
         return (
             <div className="min-h-screen bg-white">
-                <Header />.
+                <Header />
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
                     <h1 className="text-4xl font-bold text-slate-800 mb-4">Događaj nije pronađen!</h1>
                     <p className="text-gray-600 mb-8">Događaj je trenutno u obradi ili je izbrisan!</p>

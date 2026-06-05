@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Camera, Award, Users } from 'lucide-react';
+import ReactGA from 'react-ga4';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import EventCard from '../components/EventCard';
 import Pozadina from '../assets/pozadina.jpg'
+
+
 import ilahija from '../assets/cover_nocilahija.JPG'
 import testament from '../assets/cover_testamnet.jpg'
 import vatrogasci from '../assets/cover_vatrogasci.jpg'
@@ -25,6 +28,7 @@ import larisbzk from "../assets/laris_cover.jpg";
 
 
 const Home = () => {
+
     const featuredEvents = [
         {
             id: 'ednan-baltic-sesija-2026',
@@ -55,6 +59,7 @@ const Home = () => {
         },
 
 
+
     ];
 
     const stats = [
@@ -62,6 +67,19 @@ const Home = () => {
         { icon: Users, label: 'Happy Clients', value: '500+' },
         { icon: Award, label: 'Awards Won', value: '25+' },
     ];
+    const trackPortfolioClick = () => {
+        ReactGA.event({
+            action: 'hero_click_portfolio',
+            params: { section: 'hero_home' }
+        });
+    };
+
+    const trackContactClick = () => {
+        ReactGA.event({
+            action: 'hero_click_contact',
+            params: { section: 'hero_home' }
+        });
+    };
 
     return (
         <div className="min-h-screen bg-white">
@@ -88,13 +106,14 @@ const Home = () => {
                         <h1 className="text-4xl md:text-6xl font-bold mb-6">
                             Capturing
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-orange-500">
-                    {' '}Beautiful Moments
-                  </span>
+                                {' '}Beautiful Moments
+                            </span>
                         </h1>
 
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link
                                 to="/portfolio"
+                                onClick={trackPortfolioClick}
                                 className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-fuchsia-600 to-orange-500 text-white font-semibold rounded-lg hover:from-fuchsia-700 hover:to-orange-600 transition-all duration-300 transform hover:scale-105"
                             >
                                 Pogledaj Portfolio / Galeriju
@@ -102,6 +121,7 @@ const Home = () => {
                             </Link>
                             <Link
                                 to="/contact"
+                                onClick={trackContactClick}
                                 className="inline-flex items-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-slate-800 transition-all duration-300"
                             >
                                 Kontaktiraj me!
@@ -143,6 +163,7 @@ const Home = () => {
                     <div className="text-center mt-12">
                         <Link
                             to="/portfolio"
+                            onClick={trackPortfolioClick}
                             className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-fuchsia-600 to-orange-500 text-white font-semibold rounded-lg hover:from-fuchsia-700 hover:to-orange-600 transition-all duration-300 transform hover:scale-105"
                         >
                             Pogledaj sve
