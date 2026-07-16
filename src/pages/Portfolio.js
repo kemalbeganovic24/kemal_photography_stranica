@@ -53,9 +53,79 @@ import ahmedv from "../assets/ahmed_cover.jpg";
 import amilap from "../assets/amilapezer_cover.jpg";
 import ednanbalta from "../assets/balta_cover.jpg";
 import larisbzk from "../assets/laris_cover.jpg";
+import ena from "../assets/ena_cover.jpg";
+import smotratrube26 from "../assets/smotraturbe2026_cover.JPG";
+import kopenhagen from "../assets/kopenhagen1_cover.JPG";
+import tivoli from "../assets/tivoli_cover.JPG";
+import tivoliguards from "../assets/tivoliguards_cover.JPG";
+import kopenhagen1 from "../assets/kopenhagen2_cover.JPG";
+import nyhavn from "../assets/nyhavn_cover.JPG";
 
 const Portfolio = () => {
     const allEvents = [
+        {
+            id: 'ena-sesija-slikanja2026',
+            title: 'Ena sesija slikanja',
+            description: '',
+            date: '14.05.2026.',
+            location: 'Kopenhagen, Danska',
+            coverImage: ena,
+            imageCount: 7,
+        },
+        {
+            id: 'smotra-folklora-turbe-2026',
+            title: 'Smotra folklra Turbe 2026',
+            description: '',
+            date: '04.07.2026.',
+            location: 'Turbe-Travnik, BiH',
+            coverImage: smotratrube26,
+            imageCount: 70,
+        },
+        {
+            id: 'Nyhavn',
+            title: 'Nyhavn Kopenhagen',
+            description: 'Nyhavn Kopenhagen',
+            date: '10.05.2026.',
+            location: 'Kopenhagen, Danska',
+            coverImage: nyhavn,
+            imageCount: 55,
+        },
+        {
+            id: 'Grad-Kopenhagen',
+            title: 'Grad Kopenhagen',
+            description: 'Grad Kopenhagen',
+            date: '10.05.2026.',
+            location: 'Kopenhagen, Danska',
+            coverImage: kopenhagen1,
+            imageCount: 20,
+        },
+        {
+            id: 'Centar-Kopenhagen',
+            title: 'Centar Grada Kopenhagena',
+            description: 'Centar grada Kopenhagen',
+            date: '10.05.2026.',
+            location: 'Kopenhagen, Danska',
+            coverImage: kopenhagen,
+            imageCount: 27,
+        },
+        {
+            id: 'tivoli-gardens-cuvari-2026',
+            title: 'Tivoli Gardens ',
+            description: 'Tivoli Youth Guard - Omladinska garda',
+            date: '10.05.2026.',
+            location: 'Kopenhagen, Danska',
+            coverImage: tivoliguards,
+            imageCount: 12,
+        },
+        {
+            id: 'tivoli-gardens-kopenhagen-2026',
+            title: 'Tivoli Gardens',
+            description: '',
+            date: '10.05.2026.',
+            location: 'Kopenhagen, Danska',
+            coverImage: tivoli,
+            imageCount: 26,
+        },
         {
             id: 'ednan-baltic-sesija-2026',
             title: 'Ednan Baltić - sesija slikanja',

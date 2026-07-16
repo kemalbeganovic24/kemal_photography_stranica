@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import ReactGA from 'react-ga4';
+import './i18n.js';
 
 ReactGA.initialize('G-3KMEG63KRE');
 
