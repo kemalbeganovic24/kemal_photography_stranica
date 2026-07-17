@@ -3,70 +3,45 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Camera, Award, Users } from 'lucide-react';
 import ReactGA from 'react-ga4';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next'; // <-- 1. UVOZIMO PRIJEVOD
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import EventCard from '../components/EventCard';
-import Pozadina from '../assets/pozadina.jpg'
-
-
-import ilahija from '../assets/cover_nocilahija.JPG'
-import testament from '../assets/cover_testamnet.jpg'
-import vatrogasci from '../assets/cover_vatrogasci.jpg'
-import graz from '../assets/grazcover.jpg'
-import aras from '../assets/cover_aras.jpg'
-import ajnai from '../assets/cover_ajnai.jpg'
-import enesdanijela from '../assets/cover_enesdanijela.jpg'
-import frano from "../assets/frano_cover.jpg";
-import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
-import dovzenica from "../assets/dov_zenica_cover.JPG";
-import mss26 from "../assets/mss_cover.jpg";
-import ahmedv from "../assets/ahmed_cover.jpg";
-import amilap from "../assets/amilapezer_cover.jpg";
-import ednanbalta from "../assets/balta_cover.jpg";
-import larisbzk from "../assets/laris_cover.jpg";
-
-
+import Pozadina from '../assets/pozadina.jpg';
 
 const Home = () => {
+    const { t } = useTranslation(); // <-- 2. AKTIVIRAMO PRIJEVOD
 
     const featuredEvents = [
         {
-            id: 'ednan-baltic-sesija-2026',
-            title: 'Ednan Baltić - sesija slikanja',
+            id: 'ena-sesija-slikanja2026',
+            title: 'Ena sesija slikanja',
             description: '',
-            date: '31.05.2026.',
-            location: 'Vitez, BiH',
-            coverImage: ednanbalta,
-            imageCount: 4,
+            date: '14.05.2026.',
+            location: 'Kopenhagen, Danska',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ena_cover.jpg',
+            imageCount: 7,
         },
         {
-            id: 'tradicionalno_bajramsko_sijelo_nek_mirisu_avlije_2026',
-            title: 'Tradicionlano Bajramsko sijelo "Nek mirišu avlije"',
+            id: 'smotra-folklora-turbe-2026',
+            title: 'Smotra folklra Turbe 2026',
             description: '',
-            date: '29.05.2026.',
-            location: 'Vitez, BiH',
-            coverImage: larisbzk,
-            imageCount: 24,
+            date: '04.07.2026.',
+            location: 'Turbe-Travnik, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/smotraturbe2026_cover.JPG',
+            imageCount: 70,
         },
         {
-            id: 'amila-pezer-matura-msst2026',
-            title: 'Amila Pezer Matura 2026',
-            description: '',
-            date: '23.05.2026.',
-            location: 'Etno selo Čardaci Vitez, Travnik, BiH',
-            coverImage: amilap,
-            imageCount: 12,
+            id: 'Nyhavn',
+            title: 'Nyhavn Kopenhagen',
+            description: 'Nyhavn Kopenhagen',
+            date: '10.05.2026.',
+            location: 'Kopenhagen, Danska',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/nyhavn_cover.JPG',
+            imageCount: 52,
         },
-
-
-
     ];
 
-    const stats = [
-        { icon: Camera, label: 'Photos Taken', value: '10,000+' },
-        { icon: Users, label: 'Happy Clients', value: '500+' },
-        { icon: Award, label: 'Awards Won', value: '25+' },
-    ];
     const trackPortfolioClick = () => {
         ReactGA.event({
             action: 'hero_click_portfolio',
@@ -104,9 +79,9 @@ const Home = () => {
                         className="max-w-3xl"
                     >
                         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                            Capturing
+                            {t('hero_capturing', 'Capturing')} {/* <-- Prijevod teksta */}
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-orange-500">
-                                {' '}Beautiful Moments
+                                {' '}{t('hero_moments', 'Beautiful Moments')} {/* <-- Prijevod teksta */}
                             </span>
                         </h1>
 
@@ -116,7 +91,7 @@ const Home = () => {
                                 onClick={trackPortfolioClick}
                                 className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-fuchsia-600 to-orange-500 text-white font-semibold rounded-lg hover:from-fuchsia-700 hover:to-orange-600 transition-all duration-300 transform hover:scale-105"
                             >
-                                Pogledaj Portfolio / Galeriju
+                                {t('hero_btn_portfolio', 'Pogledaj Portfolio / Galeriju')} {/* <-- Prijevod gumba */}
                                 <ArrowRight className="ml-2 h-5 w-5" />
                             </Link>
                             <Link
@@ -124,7 +99,7 @@ const Home = () => {
                                 onClick={trackContactClick}
                                 className="inline-flex items-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-slate-800 transition-all duration-300"
                             >
-                                Kontaktiraj me!
+                                {t('hero_btn_contact', 'Kontaktiraj me!')} {/* <-- Prijevod gumba */}
                             </Link>
                         </div>
                     </motion.div>
@@ -140,10 +115,10 @@ const Home = () => {
                         className="text-center mb-16"
                     >
                         <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
-                            Posljednja izdanja
+                            {t('events_heading', 'Posljednja izdanja')} {/* <-- Prijevod naslova */}
                         </h2>
                         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                            Pogledajte najnovije fotografske projekte!
+                            {t('events_subheading', 'Pogledajte najnovije fotografske projekte!')} {/* <-- Prijevod podnaslova */}
                         </p>
                     </motion.div>
 
@@ -166,7 +141,7 @@ const Home = () => {
                             onClick={trackPortfolioClick}
                             className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-fuchsia-600 to-orange-500 text-white font-semibold rounded-lg hover:from-fuchsia-700 hover:to-orange-600 transition-all duration-300 transform hover:scale-105"
                         >
-                            Pogledaj sve
+                            {t('events_view_all', 'Pogledaj sve')} {/* <-- Prijevod gumba */}
                             <ArrowRight className="ml-2 h-5 w-5" />
                         </Link>
                     </div>

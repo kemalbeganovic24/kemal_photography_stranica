@@ -3,63 +3,6 @@ import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import EventCard from '../components/EventCard';
-import Ilahija from '../assets/cover_nocilahija.JPG'
-import testament from '../assets/cover_testamnet.jpg'
-import vatrogasci from '../assets/cover_vatrogasci.jpg'
-import fkvitez from '../assets/cover_fk.JPG'
-import kmfvitez from '../assets/cover_kmf.JPG'
-import anesajla from '../assets/cover_anesajla.jpg'
-import elvedin from '../assets/cover_elvedinsemina.jpg'
-import folklor from '../assets/cover_bzk.jpg'
-import emanulah from '../assets/cover_emanulah.jpg'
-import msts from '../assets/mstscover.jpg'
-import mssvitez from '../assets/mssvitezcover.jpg'
-import msstravnik from '../assets/msstravnikcover.jpg'
-import nermin from '../assets/nermincover.jpg'
-import tariksajra from '../assets/tarik_sajra_cover.jpg'
-import mevlehana from '../assets/mevle_hana_cover.jpg'
-import harisarmina from '../assets/haris_armina_cover.jpg'
-import farisadna from '../assets/faris_adna_cover.jpg'
-import graz from '../assets/grazcover.jpg'
-import colmar from '../assets/colmarcover.JPG'
-import rimini from '../assets/riminicover.JPG'
-import verona from '../assets/veronacover.JPG'
-import sanmarino from '../assets/sanmarino_cover.JPG'
-import venecija from '../assets/venecijacover1.jpg'
-import dzejlanakumstvo from '../assets/cover_kumstvodzejlana.jpg'
-import aras from '../assets/cover_aras.jpg'
-import ajnai from '../assets/cover_ajnai.jpg'
-import enesdanijela from '../assets/cover_enesdanijela.jpg'
-
-import strasburg from '../assets/strasburgcover.JPG'
-import brajzah from '../assets/brajzahcover.JPG'
-import freiburg from '../assets/freiburgcover.JPG'
-
-import amila from '../assets/amilap_cover.jpg'
-import frano from '../assets/frano_cover.jpg'
-import belma from '../assets/belma_cover.jpg'
-import harisa from '../assets/harisa_cover.jpg'
-import suana from '../assets/suana_cover.jpg'
-import bajramskosijelo from "../assets/bajramskoselo_cover.jpg";
-import dovzenica from "../assets/dov_zenica_cover.JPG";
-import etnoselo from "../assets/etno_cover.jpg";
-import sulja from "../assets/sulja_cover.jpg";
-import amiladajic from "../assets/amiladajic_cover.jpg";
-import amarh from "../assets/amarhodzic_cover.jpg";
-import ednat from "../assets/ednat_cover.jpg";
-import msts26 from "../assets/msts26_cover.jpg";
-import mss26 from "../assets/mss_cover.jpg";
-import ahmedv from "../assets/ahmed_cover.jpg";
-import amilap from "../assets/amilapezer_cover.jpg";
-import ednanbalta from "../assets/balta_cover.jpg";
-import larisbzk from "../assets/laris_cover.jpg";
-import ena from "../assets/ena_cover.jpg";
-import smotratrube26 from "../assets/smotraturbe2026_cover.JPG";
-import kopenhagen from "../assets/kopenhagen1_cover.JPG";
-import tivoli from "../assets/tivoli_cover.JPG";
-import tivoliguards from "../assets/tivoliguards_cover.JPG";
-import kopenhagen1 from "../assets/kopenhagen2_cover.JPG";
-import nyhavn from "../assets/nyhavn_cover.JPG";
 
 const Portfolio = () => {
     const allEvents = [
@@ -69,7 +12,7 @@ const Portfolio = () => {
             description: '',
             date: '14.05.2026.',
             location: 'Kopenhagen, Danska',
-            coverImage: ena,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ena_cover.jpg',
             imageCount: 7,
         },
         {
@@ -78,7 +21,7 @@ const Portfolio = () => {
             description: '',
             date: '04.07.2026.',
             location: 'Turbe-Travnik, BiH',
-            coverImage: smotratrube26,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/smotraturbe2026_cover.JPG',
             imageCount: 70,
         },
         {
@@ -87,8 +30,8 @@ const Portfolio = () => {
             description: 'Nyhavn Kopenhagen',
             date: '10.05.2026.',
             location: 'Kopenhagen, Danska',
-            coverImage: nyhavn,
-            imageCount: 55,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/nyhavn_cover.JPG',
+            imageCount: 52,
         },
         {
             id: 'Grad-Kopenhagen',
@@ -96,16 +39,16 @@ const Portfolio = () => {
             description: 'Grad Kopenhagen',
             date: '10.05.2026.',
             location: 'Kopenhagen, Danska',
-            coverImage: kopenhagen1,
-            imageCount: 20,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/kopenhagen1_cover.JPG',
+            imageCount: 19,
         },
         {
-            id: 'Centar-Kopenhagen',
+            id: 'Centar-Kopenhagena',
             title: 'Centar Grada Kopenhagena',
             description: 'Centar grada Kopenhagen',
             date: '10.05.2026.',
             location: 'Kopenhagen, Danska',
-            coverImage: kopenhagen,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/kopenhagen2_cover.JPG',
             imageCount: 27,
         },
         {
@@ -114,7 +57,8 @@ const Portfolio = () => {
             description: 'Tivoli Youth Guard - Omladinska garda',
             date: '10.05.2026.',
             location: 'Kopenhagen, Danska',
-            coverImage: tivoliguards,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/tivoliguards_cover.JPG',
+
             imageCount: 12,
         },
         {
@@ -123,7 +67,8 @@ const Portfolio = () => {
             description: '',
             date: '10.05.2026.',
             location: 'Kopenhagen, Danska',
-            coverImage: tivoli,
+            coverImage:  'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/tivoli_cover.JPG',
+
             imageCount: 26,
         },
         {
@@ -132,7 +77,7 @@ const Portfolio = () => {
             description: '',
             date: '31.05.2026.',
             location: 'Vitez, BiH',
-            coverImage: ednanbalta,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/balta_cover.jpg',
             imageCount: 4,
         },
         {
@@ -141,7 +86,7 @@ const Portfolio = () => {
             description: '',
             date: '29.05.2026.',
             location: 'Vitez, BiH',
-            coverImage: larisbzk,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/laris_cover.jpg',
             imageCount: 24,
         },
         {
@@ -150,7 +95,7 @@ const Portfolio = () => {
             description: '',
             date: '23.05.2026.',
             location: 'Travnik, BiH',
-            coverImage: mss26,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/mss_cover.jpg',
             imageCount: 5,
         },
         {
@@ -159,7 +104,7 @@ const Portfolio = () => {
             description: '',
             date: '23.05.2026.',
             location: 'Travnik, BiH',
-            coverImage: ahmedv,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ahmed_cover.jpg',
             imageCount: 7,
         },
         {
@@ -168,7 +113,7 @@ const Portfolio = () => {
             description: '',
             date: '23.05.2026.',
             location: 'Etno selo Čardaci Vitez, Travnik, BiH',
-            coverImage: amilap,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/amilapezer_cover.jpg',
             imageCount: 12,
         },
         {
@@ -177,7 +122,7 @@ const Portfolio = () => {
             description: '',
             date: '29.04.2026.',
             location: 'Travnik, BiH',
-            coverImage: amiladajic,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/amiladajic_cover.jpg',
             imageCount: 12,
         },
         {
@@ -186,7 +131,7 @@ const Portfolio = () => {
             description: '',
             date: '23.05.2026.',
             location: 'Etno selo Čardaci Vitez, Travnik, BiH',
-            coverImage: sulja,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/sulja_cover.jpg',
             imageCount: 8,
         },
         {
@@ -195,7 +140,7 @@ const Portfolio = () => {
             description: '',
             date: '22.05.2026.',
             location: 'Travnik, BiH',
-            coverImage: ednat,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ednat_cover.jpg',
             imageCount: 4,
         },
         {
@@ -204,7 +149,7 @@ const Portfolio = () => {
             description: '',
             date: '16.05.2026.',
             location: 'Travnik, BiH',
-            coverImage: msts26,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/msts26_cover.jpg',
             imageCount: 22,
         },
 
@@ -214,7 +159,7 @@ const Portfolio = () => {
             description: '',
             date: '16.05.2026.',
             location: 'Travnik, BiH',
-            coverImage: amarh,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/amarhodzic_cover.jpg',
             imageCount: 8,
         },
         {
@@ -223,7 +168,7 @@ const Portfolio = () => {
             description: '',
             date: '29.04.2026.',
             location: 'Kampus Univerziteta u Zenici, BiH',
-            coverImage: dovzenica,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/dov_zenica_cover.JPG',
             imageCount: 50,
         },
         {
@@ -232,7 +177,7 @@ const Portfolio = () => {
             description: '',
             date: '26.04.2026.',
             location: 'Etno selo Čardaci Vitez, BiH',
-            coverImage: etnoselo,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/etno_cover.jpg',
             imageCount: 3,
         },
         {
@@ -241,7 +186,7 @@ const Portfolio = () => {
             description: '',
             date: '22.03.2026.',
             location: 'Dvorana Behar Vitez, BiH',
-            coverImage: bajramskosijelo,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/bajramskoselo_cover.jpg',
             imageCount: 34,
         },
         {
@@ -250,7 +195,7 @@ const Portfolio = () => {
             description: '',
             date: '07.02.2026.',
             location: 'Etno selo Čardaci Vitez, BiH',
-            coverImage: enesdanijela,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_enesdanijela.jpg',
             imageCount: 15,
         },
         {
@@ -259,7 +204,7 @@ const Portfolio = () => {
             description: '',
             date: '06.02.2026.',
             location: 'Etno selo Čardaci Vitez, BiH',
-            coverImage: ajnai,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_ajnai.jpg',
             imageCount: 9,
         },
         {
@@ -268,7 +213,7 @@ const Portfolio = () => {
             description: '',
             date: '31.01.2026.',
             location: 'Stadion Dolac na Lašvi, BiH',
-            coverImage: frano,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/frano_cover.jpg',
             imageCount: 6,
         },
         {
@@ -277,7 +222,7 @@ const Portfolio = () => {
             description: '',
             date: '25.01.2026.',
             location: 'Travnik, BiH',
-            coverImage: aras,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_aras.jpg',
             imageCount: 5,
         },
         {
@@ -286,7 +231,7 @@ const Portfolio = () => {
             description: '',
             date: '04.01.2026.',
             location: 'Restoran Bistrovo Kruščica Vitez, BiH',
-            coverImage: dzejlanakumstvo,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_kumstvodzejlana.jpg',
             imageCount: 21,
         },
         {
@@ -295,7 +240,7 @@ const Portfolio = () => {
             description: '',
             date: '29.11.2025.',
             location: 'Graz, Austrija',
-            coverImage: graz,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/grazcover.jpg',
             imageCount: 30,
         },
         {
@@ -304,15 +249,15 @@ const Portfolio = () => {
             description: '',
             date: '23.10.2025.',
             location: 'Kino sala Vitez, BiH',
-            coverImage: testament,
-            imageCount: 20,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_testamnet.jpg',
+            imageCount: 29,
         },
         {
             id: 'noc-ilahija-kasida',
             title: 'Noć ilahija i kasida',
             date: '18.10.2025.',
             location: 'Kino sala Vitez, BiH',
-            coverImage: Ilahija,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_nocilahija.JPG',
             imageCount: 9,
         },
         {
@@ -321,8 +266,8 @@ const Portfolio = () => {
             description: '',
             date: '18.10.2025.',
             location: 'Dvorana Behar Stari Vitez, BiH',
-            coverImage: vatrogasci,
-            imageCount: 15,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_vatrogasci.jpg',
+            imageCount: 39,
         },
         {
             id: 'fk-vitez',
@@ -330,7 +275,7 @@ const Portfolio = () => {
             description: 'Galerija slika fudbalera FK Vitez - sezona 2025/2026',
             date: 'Sezona 2025/2026',
             location: 'Gradski stadion Vitez',
-            coverImage: fkvitez,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_fk.JPG',
             imageCount: 14,
         },
         {
@@ -339,8 +284,8 @@ const Portfolio = () => {
             description: 'Galerija slika KMF Vitez - sezona 2025/2026',
             date: 'Sezona 2025/2026',
             location: 'Gradska sportska dvorana Vitez',
-            coverImage: kmfvitez,
-            imageCount: 24,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_kmf.JPG',
+            imageCount: 25,
         },
         {
             id: 'anes-ajla',
@@ -348,7 +293,7 @@ const Portfolio = () => {
             description: '',
             date: '21.8.2025.',
             location: 'Busovača, BiH',
-            coverImage: anesajla,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_anesajla.jpg',
             imageCount: 7,
         },
         {
@@ -357,7 +302,7 @@ const Portfolio = () => {
             description: '',
             date: '29.7.2025.',
             location: 'Zenica, BiH',
-            coverImage: elvedin,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_elvedinsemina.jpg',
             imageCount: 9,
         },
         {
@@ -366,7 +311,7 @@ const Portfolio = () => {
             description: 'Međunarodna smotra folklora u Vitezu.',
             date: '31.7.2025.',
             location: 'Vitez, BiH',
-            coverImage: folklor,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_bzk.jpg',
             imageCount: 28,
         },
         {
@@ -375,7 +320,7 @@ const Portfolio = () => {
             description: '',
             date: '27.7.2025.',
             location: 'Vitez, BiH',
-            coverImage: emanulah,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/cover_emanulah.jpg',
             imageCount: 11,
         },
         {
@@ -384,7 +329,7 @@ const Portfolio = () => {
             description: '',
             date: '24.05.2025.',
             location: 'Travnik, BiH',
-            coverImage: msstravnik,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/msstravnikcover.jpg',
             imageCount: 33,
         },
         {
@@ -393,8 +338,8 @@ const Portfolio = () => {
             description: '',
             date: '17.5.2025.',
             location: 'Travnik, BiH',
-            coverImage: msts,
-            imageCount: 32,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/mstscover.jpg',
+            imageCount: 12,
         },
         {
             id: 'matura-mss-vitez-2025',
@@ -402,7 +347,7 @@ const Portfolio = () => {
             description: '',
             date: '23.5.2025.',
             location: 'Vitez, BiH',
-            coverImage: mssvitez,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/mssvitezcover.jpg',
             imageCount: 14,
         },
         {
@@ -411,7 +356,7 @@ const Portfolio = () => {
             description: '',
             date: '22.5.2025.',
             location: 'Etno selo Čardaci Vitez, BiH',
-            coverImage: amila,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/amilap_cover.jpg',
             imageCount: 7,
         },
         {
@@ -420,7 +365,7 @@ const Portfolio = () => {
             description: '',
             date: '11.03.2025.',
             location: 'Etno selo Čardaci Vitez, BiH',
-            coverImage: tariksajra,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/tarik_sajra_cover.jpg',
             imageCount: 10,
         },
         {
@@ -429,7 +374,7 @@ const Portfolio = () => {
             description: '',
             date: '11.10.2024.',
             location: 'Vitez, BiH',
-            coverImage: nermin,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/nermincover.jpg',
             imageCount: 10,
         },
         {
@@ -438,7 +383,7 @@ const Portfolio = () => {
             description: '',
             date: '27.12.2024.',
             location: 'Vitez, BiH',
-            coverImage: mevlehana,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/mevle_hana_cover.jpg',
             imageCount: 5,
         },
         {
@@ -447,7 +392,7 @@ const Portfolio = () => {
             description: '',
             date: '28.08.2024.',
             location: 'Travnik, BiH',
-            coverImage: farisadna,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/faris_adna_cover.jpg',
             imageCount: 11,
         },
         {
@@ -456,7 +401,7 @@ const Portfolio = () => {
             description: '',
             date: '16.08.2024.',
             location: 'Zenica, BiH',
-            coverImage: harisarmina,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/haris_armina_cover.jpg',
             imageCount: 7,
         },
         {
@@ -465,7 +410,7 @@ const Portfolio = () => {
             description: '',
             date: '24.05.2024.',
             location: 'Vitez, BiH',
-            coverImage: belma,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/belma_cover.jpg',
             imageCount: 19,
         },
         {
@@ -474,7 +419,7 @@ const Portfolio = () => {
             description: '',
             date: '24.05.2024.',
             location: 'Tvrđava Travnik, BiH',
-            coverImage: harisa,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/harisa_cover.jpg',
             imageCount: 15,
         },
         {
@@ -483,7 +428,7 @@ const Portfolio = () => {
             description: '',
             date: '17.05.2024.',
             location: 'Vitez, BiH',
-            coverImage: suana,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/suana_cover.jpg',
             imageCount: 11,
         },
         {
@@ -492,7 +437,7 @@ const Portfolio = () => {
             description: 'Galerija slika iz Venecije.',
             date: '17.9.2023.',
             location: 'Venecija, Italija',
-            coverImage: venecija,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/venecijacover2.jpg',
             imageCount: 19,
         },
         {
@@ -501,7 +446,7 @@ const Portfolio = () => {
             description: 'Galerija slika iz San Marina.',
             date: '19.9.2023.',
             location: 'San Marino, SAN',
-            coverImage: sanmarino,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/sanmarino_cover.JPG',
             imageCount: 16,
         },
         {
@@ -510,7 +455,7 @@ const Portfolio = () => {
             description: 'Galerija slika iz Riminija.',
             date: '20.09.2023.',
             location: 'Rimini, Italija',
-            coverImage: rimini,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/riminicover.JPG',
             imageCount: 11,
         },
 
@@ -520,7 +465,7 @@ const Portfolio = () => {
             description: 'Galerija slika iz Verone.',
             date: '22.09.2023.',
             location: 'Verona, Italija',
-            coverImage: verona,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/veronacover.JPG',
             imageCount: 20,
         },
         {
@@ -529,7 +474,7 @@ const Portfolio = () => {
             description: 'Galerija slika iz Freiburga.',
             date: '01.8.2022.',
             location: 'Freiburg, Njemačka',
-            coverImage: freiburg,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/freiburgcover.JPG',
             imageCount: 9,
         },
 
@@ -539,7 +484,7 @@ const Portfolio = () => {
             description: 'Galerija slika iz Breisacha.',
             date: '29.7.2022.',
             location: 'Breisach am Rhein, Njemačka',
-            coverImage: brajzah,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/brajzahcover.JPG',
             imageCount: 8,
         },
 
@@ -549,7 +494,7 @@ const Portfolio = () => {
             description: 'Galerija slika iz Strasburga.',
             date: '16.7.2022.',
             location: 'Strasburg, Francuska',
-            coverImage: strasburg,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/strasburgcover.JPG',
             imageCount: 23,
         },
 
@@ -559,7 +504,7 @@ const Portfolio = () => {
             description: 'Galerija slika iz Colmara.',
             date: '13.7.2022.',
             location: 'Colmar, Francuska',
-            coverImage: colmar,
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/colmarcover.JPG',
             imageCount: 20,
         },
 
