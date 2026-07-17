@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Camera, Instagram, Mail, Phone } from 'lucide-react';
+import {Camera,Instagram, Facebook, Twitter, Mail, Phone, Linkedin} from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
                         <Link to="/" className="flex items-center gap-2 text-2xl font-bold tracking-tight mb-4">
                             <Camera className="h-8 w-8 text-fuchsia-500" />
                             <span className="bg-gradient-to-r from-fuchsia-500 to-orange-400 bg-clip-text text-transparent">
-                                Studio
+                                Foto Kemal
                             </span>
                         </Link>
                         <p className="text-gray-400 leading-relaxed">
@@ -52,28 +52,31 @@ const Footer = () => {
                         <ul className="space-y-3 text-gray-400">
                             <li className="flex items-center gap-2">
                                 <Phone className="h-5 w-5 text-fuchsia-500" />
-                                <span>+387 62 123 456</span>
+                                <span>+387 62 890 153</span>
                             </li>
                             <li className="flex items-center gap-2">
                                 <Mail className="h-5 w-5 text-fuchsia-500" />
-                                <span>info@photography.com</span>
+                                <span>kemalbeganovic77@gmail.com</span>
                             </li>
                             <li className="flex items-center gap-2 pt-2">
-                                <a
-                                    href="https://instagram.com"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="p-2 bg-slate-800 rounded-full hover:bg-fuchsia-600 hover:text-white transition-all text-gray-300"
-                                >
+                                <a href="https://www.instagram.com/kemal_.photography?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-gray-300 hover:text-fuchsia-600 transition-colors">
                                     <Instagram className="h-5 w-5" />
                                 </a>
+                                <a href="https://www.facebook.com/share/17YYXbQzui/?mibextid=wwXIfr" className="text-gray-300 hover:text-fuchsia-600 transition-colors">
+                                    {/* eslint-disable-next-line react/jsx-no-undef */}
+                                    <Facebook className="h-5 w-5" />
+                                </a>
+                                <a href="https://www.linkedin.com/in/kemal-beganovi%C4%87-53a63b357/" className="text-gray-300 hover:text-fuchsia-600 transition-colors">
+                                    <Linkedin className="h-5 w-5" />
+                                </a>
+
                             </li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="border-t border-slate-800 pt-8 text-center text-gray-500 text-sm">
-                    <p>&copy; {currentYear} Studio. {t('footer_rights', 'Sva prava zadržana.')}</p>
+                    <p>&copy; 2026 Kemal Photography. All rights reserved.</p>
                 </div>
             </div>
         </footer>
