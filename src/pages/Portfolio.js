@@ -7,6 +7,24 @@ import EventCard from '../components/EventCard';
 const Portfolio = () => {
     const allEvents = [
         {
+            id: 'farma-lavandi2026',
+            title: 'Farma Lavandi',
+            description: '',
+            date: '26.07.2026.',
+            location: 'Visoko, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lavandacover.jpg',
+            imageCount: 6,
+        },
+        {
+            id: 'smotra-bzkodvitez-2026',
+            title: '18. Međunarodna smotra Vitez',
+            description: '',
+            date: '22.07.2026.',
+            location: 'Vitez, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/smotrabzk2026_cover.jpg',
+            imageCount: 153,
+        },
+        {
             id: 'ena-sesija-slikanja2026',
             title: 'Ena sesija slikanja',
             description: '',

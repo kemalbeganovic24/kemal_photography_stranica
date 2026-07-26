@@ -14,6 +14,24 @@ const Home = () => {
 
     const featuredEvents = [
         {
+            id: 'farma-lavandi2026',
+            title: 'Farma Lavandi',
+            description: '',
+            date: '26.07.2026.',
+            location: 'Visoko, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lavandacover.jpg',
+            imageCount: 6,
+        },
+        {
+            id: 'smotra-bzkodvitez-2026',
+            title: '18. Međunarodna smotra Vitez',
+            description: '',
+            date: '22.07.2026.',
+            location: 'Vitez, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/smotrabzk2026_cover.jpg',
+            imageCount: 153,
+        },
+        {
             id: 'ena-sesija-slikanja2026',
             title: 'Ena sesija slikanja',
             description: '',
@@ -22,24 +40,8 @@ const Home = () => {
             coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ena_cover.jpg',
             imageCount: 7,
         },
-        {
-            id: 'smotra-folklora-turbe-2026',
-            title: 'Smotra folklra Turbe 2026',
-            description: '',
-            date: '04.07.2026.',
-            location: 'Turbe-Travnik, BiH',
-            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/smotraturbe2026_cover.JPG',
-            imageCount: 70,
-        },
-        {
-            id: 'Nyhavn',
-            title: 'Nyhavn Kopenhagen',
-            description: 'Nyhavn Kopenhagen',
-            date: '10.05.2026.',
-            location: 'Kopenhagen, Danska',
-            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/nyhavn_cover.JPG',
-            imageCount: 52,
-        },
+
+
     ];
 
     const trackPortfolioClick = () => {
