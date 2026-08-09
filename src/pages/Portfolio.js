@@ -7,6 +7,15 @@ import EventCard from '../components/EventCard';
 const Portfolio = () => {
     const allEvents = [
         {
+            id: 'adnan_i_asja_2026',
+            title: 'Adnan & Asja Svadba',
+            description: '',
+            date: '07.08.2026.',
+            location: 'Zenica, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/IMG_0405.jpg',
+            imageCount: 12,
+        },
+        {
             id: 'farma-lavandi2026',
             title: 'Farma Lavandi',
             description: '',

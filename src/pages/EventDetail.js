@@ -11,6 +11,29 @@ const EventDetail = () => {
     const { eventId } = useParams();
 
     const eventData = {
+        'adnan_i_asja_2026': {
+            title: 'Adnan & Asja Svadba',
+            description: '',
+            date: '07.08.2026.',
+            location: 'Zenica, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/IMG_0405.jpg',
+            imageCount: 12,
+            images: [
+                { id: '1', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lola-1.jpg', alt: 'Wedding ceremony' },
+                { id: '2', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lola-2.jpg', alt: 'Wedding ceremony' },
+                { id: '3', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lola-3.jpg', alt: 'Wedding ceremony' },
+                { id: '4', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lola-4.jpg', alt: 'Wedding ceremony' },
+                { id: '5', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lola-5.jpg', alt: 'Wedding ceremony' },
+                { id: '6', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lola-6.jpg', alt: 'Wedding ceremony' },
+                { id: '7', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lola-7.jpg', alt: 'Wedding ceremony' },
+                { id: '8', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lola-8.jpg', alt: 'Wedding ceremony' },
+                { id: '9', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/asja.jpg', alt: 'Wedding ceremony' },
+                { id: '10', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/asja1.jpg', alt: 'Wedding ceremony' },
+                { id: '11', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/asja2.jpg', alt: 'Wedding ceremony' },
+                { id: '12', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/asja3.jpg', alt: 'Wedding ceremony' },
+
+            ],
+        },
         'farma-lavandi2026': {
             title: 'Farma Lavandi',
             description: '',

@@ -14,6 +14,15 @@ const Home = () => {
 
     const featuredEvents = [
         {
+            id: 'adnan_i_asja_2026',
+            title: 'Adnan & Asja Svadba',
+            description: '',
+            date: '07.08.2026.',
+            location: 'Zenica, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/IMG_0405.jpg',
+            imageCount: 12,
+        },
+        {
             id: 'farma-lavandi2026',
             title: 'Farma Lavandi',
             description: '',
@@ -31,15 +40,7 @@ const Home = () => {
             coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/smotrabzk2026_cover.jpg',
             imageCount: 153,
         },
-        {
-            id: 'ena-sesija-slikanja2026',
-            title: 'Ena sesija slikanja',
-            description: '',
-            date: '14.05.2026.',
-            location: 'Kopenhagen, Danska',
-            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ena_cover.jpg',
-            imageCount: 7,
-        },
+
 
 
     ];
