@@ -2,10 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Camera, Award, Heart, Users } from 'lucide-react';
 import Header from '../components/Header';
+import { useTranslation } from 'react-i18next';
 import Footer from '../components/Footer';
 import omeni from '../assets/pozadina.jpg'
 
 const About = () => {
+    const { t } = useTranslation();
     return (
         <div className="min-h-screen bg-white">
             <Header />
@@ -20,12 +22,10 @@ const About = () => {
                         className="text-center"
                     >
                         <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                            O meni
+                            {t('about_page_title')}
                         </h1>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Zovem se Kemal i bavim se fotografijom sa ciljem da uhvatim trenutke koje se pamte.
-                            Bavim se portretima, događajima, sportom i kreativnom fotografijom, ali jednako volim i mir prirode gdje mogu fotografisati pejzaže.
-                            Editovanje u Lightroomu mi je posebno zadovoljstvo jer to mi je vrijeme za smirenje, uživanje i kreativnost, gdje svakoj fotografiji dam njen jedinstveni izgled i atmosferu.
+                            {t('about_page_hero_text')}
                         </p>
                     </motion.div>
                 </div>
@@ -40,18 +40,18 @@ const About = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.8 }}
                         >
-                            <h2 className="text-3xl font-bold text-slate-800 mb-6">Moja priča</h2>
+                            <h2 className="text-3xl font-bold text-slate-800 mb-6"> {t('about_story_title')} </h2>
                             <p className="text-gray-600 mb-6">
-                                Kemal Photography je nastao u oktobru 2022. godine, najprije kao jednostavna zabava i način da zabilježim trenutke koji mi se sviđaju. Malo po malo, kroz fotografiju, razvijao sam svoj stil i gledanje svijeta, istražujući prirodu, gradove, putovanja i ljude. Danas, ono što je počelo kao igra, postalo je moja strast i način da dijelim svoj pogled na svijet kroz objektiv.
+                                {t('about_story_text')}
                             </p>
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="text-center">
                                     <div className="text-2xl font-bold text-fuchsia-600">500+</div>
-                                    <div className="text-sm text-gray-600">Zadovoljnih korisnika</div>
+                                    <div className="text-sm text-gray-600"> {t('about_stat_clients')} </div>
                                 </div>
                                 <div className="text-center">
                                     <div className="text-2xl font-bold text-orange-500">80,000+</div>
-                                    <div className="text-sm text-gray-600">Fotografija</div>
+                                    <div className="text-sm text-gray-600"> {t('about_stat_photos')} </div>
                                 </div>
                             </div>
                         </motion.div>
@@ -78,8 +78,9 @@ const About = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         className="text-center mb-16"
                     >
-                        <h2 className="text-3xl font-bold text-slate-800 mb-4">Moje vještine</h2>
+                        <h2 className="text-3xl font-bold text-slate-800 mb-4"> {t('about_skills_title')} </h2>
                     </motion.div>
+
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {[

@@ -1,9 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Camera, Users, Building, Heart, Star, Clock, Disc, Zap, Layers, ShieldCheck } from 'lucide-react';
+import { Camera, Users, Building, Heart, Star, Disc, Zap, ShieldCheck } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import ReactGA from 'react-ga4';
+
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import ReactGA from 'react-ga4';
 
 import kamera from "../assets/eos1200d.jpg";
 import kamera1 from "../assets/760d.jpg";
@@ -18,39 +20,50 @@ import godox from "../assets/godox.jpg";
 import tripod from "../assets/tripod.jpg";
 
 const Services = () => {
+    const { t } = useTranslation();
+
     const services = [
         {
+            key: 'weddings',
             icon: Heart,
-            title: 'Vjenčanja',
-            description: '',
-            features: ['Cijelodnevno slikanje', 'Općinsko/Šerijatsko vjenčanje', 'Editovanje (Lightroom)'],
-            price: 'Starting at 400KM',
+            title: t('services_list.weddings.title'),
+            description: t('services_list.weddings.description'),
+            features: [
+                t('services_list.weddings.f1'),
+                t('services_list.weddings.f2'),
+                t('services_list.weddings.f3')
+            ],
+            price: t('services_list.weddings.price'),
         },
         {
+            key: 'portraits',
             icon: Users,
-            title: 'Portretske sesije',
-            description: 'Portretske sesije za individualne osobe, grupe, porodice, parove i slično.',
-            features: ['1-4 sata sesije'],
-            price: 'Na upit',
+            title: t('services_list.portraits.title'),
+            description: t('services_list.portraits.description'),
+            features: [t('services_list.portraits.f1')],
+            price: t('services_list.portraits.price'),
         },
         {
+            key: 'events',
             icon: Building,
-            title: 'Događaji / eventi',
-            description: '',
+            title: t('services_list.events.title'),
+            description: t('services_list.events.description'),
             features: [],
-            price: 'Na upit',
+            price: t('services_list.events.price'),
         },
         {
+            key: 'sports',
             icon: Camera,
-            title: 'Sport',
-            description: '',
-            features: ['Fudbal/Nogomet, Futsal, Košarka, Stoni tenis, tenis'],
-            price: 'Na upit',
+            title: t('services_list.sports.title'),
+            description: t('services_list.sports.description'),
+            features: [t('services_list.sports.f1')],
+            price: t('services_list.sports.price'),
         },
     ];
+
     const equipment = [
         {
-            category: 'Kamere',
+            category: t('equipment_cat.cameras'),
             icon: Camera,
             items: [
                 { name: 'Canon EOS 760D', image: kamera1 },
@@ -58,7 +71,7 @@ const Services = () => {
             ],
         },
         {
-            category: 'Canon EF i EF-S objektivi',
+            category: t('equipment_cat.lenses'),
             icon: Disc,
             items: [
                 { name: 'EF 24-70mm f/2.8 L USM', image: canon },
@@ -69,7 +82,7 @@ const Services = () => {
             ],
         },
         {
-            category: 'Osvetljenje i oprema',
+            category: t('equipment_cat.accessories'),
             icon: Zap,
             items: [
                 { name: 'GodoX TT600', image: godox },
@@ -100,7 +113,7 @@ const Services = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                            Usluge
+                            {t('services_hero_title')}
                         </h1>
                     </motion.div>
                 </div>
@@ -119,14 +132,16 @@ const Services = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         className="text-center mb-16"
                     >
-                        <h2 className="text-3xl md:text-4xl font-bold mb-4">Fotografska oprema</h2>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                            {t('equipment_title')}
+                        </h2>
                         <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                            Koristimo vrhunsku Canon optiku i profesionalna tijela kako bismo osigurali da svaki piksel na vašim fotografijama bude savršen.
+                            {t('equipment_subtitle')}
                         </p>
                     </motion.div>
 
                     <div className="space-y-20">
-                        {equipment.map((group, groupIndex) => (
+                        {equipment.map((group) => (
                             <div key={group.category}>
                                 <div className="flex items-center gap-4 mb-8">
                                     <div className="p-2 bg-white/10 rounded-lg">
@@ -172,7 +187,7 @@ const Services = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {services.map((service, index) => (
                             <motion.div
-                                key={service.title}
+                                key={service.key}
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ delay: index * 0.2 }}
@@ -188,7 +203,9 @@ const Services = () => {
                                         <p className="text-fuchsia-600 font-semibold">{service.price}</p>
                                     </div>
                                 </div>
-                                <p className="text-gray-600 mb-6">{service.description}</p>
+                                {service.description && (
+                                    <p className="text-gray-600 mb-6">{service.description}</p>
+                                )}
                                 <ul className="space-y-2">
                                     {service.features.map((feature, featureIndex) => (
                                         <li key={featureIndex} className="flex items-center text-gray-600">

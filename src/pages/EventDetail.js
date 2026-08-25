@@ -11,8 +11,52 @@ const EventDetail = () => {
     const { eventId } = useParams();
 
     const eventData = {
+        'amar_kanita_2026': {
+            title: 'Amar & Kanita',
+            description: '',
+            date: '22.08.2026.',
+            location: 'Vitez, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/amarkanitacover.jpg',
+            imageCount: 15,
+            images: [
+                { id: '1', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-1.jpg', alt: 'Wedding ceremony' },
+                { id: '2', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-2.jpg', alt: 'Wedding ceremony' },
+                { id: '3', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-3.jpg', alt: 'Wedding ceremony' },
+                { id: '4', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-4.jpg', alt: 'Wedding ceremony' },
+                { id: '5', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-5.jpg', alt: 'Wedding ceremony' },
+                { id: '6', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-6.jpg', alt: 'Wedding ceremony' },
+                { id: '7', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-7.jpg', alt: 'Wedding ceremony' },
+                { id: '8', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-02.jpg', alt: 'Wedding ceremony' },
+                { id: '9', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-03.jpg', alt: 'Wedding ceremony' },
+                { id: '10', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-05.jpg', alt: 'Wedding ceremony' },
+                { id: '11', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-08.jpg', alt: 'Wedding ceremony' },
+                { id: '12', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-10.jpg', alt: 'Wedding ceremony' },
+                { id: '13', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-11.jpg', alt: 'Wedding ceremony' },
+                { id: '14', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-12.jpg', alt: 'Wedding ceremony' },
+                { id: '15', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/slike-8.jpg', alt: 'Wedding ceremony' },
+            ],
+        },
+        'elvir_ilhana_2026': {
+            title: 'Elvir & Ilhana',
+            description: '',
+            date: '15.08.2026.',
+            location: 'Busovača, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaelvircover.jpg',
+            imageCount: 8,
+            images: [
+                { id: '1', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaadmir.jpg', alt: 'Wedding ceremony' },
+                { id: '2', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaadmir0.jpg', alt: 'Wedding ceremony' },
+                { id: '3', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaadmir1.jpg', alt: 'Wedding ceremony' },
+                { id: '4', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaadmir2.jpg', alt: 'Wedding ceremony' },
+                { id: '5', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaadmir3.jpg', alt: 'Wedding ceremony' },
+                { id: '6', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaadmir4.jpg', alt: 'Wedding ceremony' },
+                { id: '7', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaadmir5.jpg', alt: 'Wedding ceremony' },
+                { id: '8', src: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaadmir6.jpg', alt: 'Wedding ceremony' },
+
+            ],
+        },
         'adnan_i_asja_2026': {
-            title: 'Adnan & Asja Svadba',
+            title: 'Adnan & Asja',
             description: '',
             date: '07.08.2026.',
             location: 'Zenica, BiH',

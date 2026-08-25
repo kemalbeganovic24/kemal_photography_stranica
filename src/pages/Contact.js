@@ -3,20 +3,24 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 import { toast } from 'react-toastify';
+import { useTranslation } from 'react-i18next';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const contactSchema = z.object({
-    name: z.string().min(2, 'Name must be at least 2 characters'),
-    email: z.string().email('Please enter a valid email address'),
-    phone: z.string().min(10, 'Please enter a valid phone number'),
-    service: z.string().min(1, 'Please select a service'),
-    message: z.string().min(10, 'Message must be at least 10 characters'),
-});
-
 const Contact = () => {
+    const { t } = useTranslation();
+
+    // Dinamička Zod šema sa prevedenim porukama o grešci
+    const contactSchema = z.object({
+        name: z.string().min(2, t('contact_errors.name')),
+        email: z.string().email(t('contact_errors.email')),
+        phone: z.string().min(10, t('contact_errors.phone')),
+        service: z.string().min(1, t('contact_errors.service')),
+        message: z.string().min(10, t('contact_errors.message')),
+    });
+
     const {
         register,
         handleSubmit,
@@ -28,13 +32,12 @@ const Contact = () => {
 
     const onSubmit = async (data) => {
         try {
-            // Simulate form submission
             await new Promise((resolve) => setTimeout(resolve, 1000));
             console.log('Form data:', data);
-            toast.success('Message sent successfully! We\'ll get back to you soon.');
+            toast.success(t('message_sent'));
             reset();
         } catch (error) {
-            toast.error('Failed to send message. Please try again.');
+            toast.error(t('message_failed'));
         }
     };
 
@@ -51,11 +54,10 @@ const Contact = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                            Kontaktiraj me!
+                            {t('contact_hero_title')}
                         </h1>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Spreman/a za zabilježiti vaše posebne trenutke?
-                            Hajde da razgovaramo o vašim željama i stvorimo nešto posebno zajedno!
+                            {t('contact_hero_subtitle')}
                         </p>
                     </motion.div>
                 </div>
@@ -65,7 +67,7 @@ const Contact = () => {
             <section className="py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                        {/* Contact Form */}
+
 
 
                         {/* Contact Information */}
@@ -75,7 +77,7 @@ const Contact = () => {
                             transition={{ duration: 0.8 }}
                             className="lg:pl-8"
                         >
-                            <h2 className="text-3xl font-bold text-slate-800 mb-8">Kontakt informacije</h2>
+                            <h2 className="text-3xl font-bold text-slate-800 mb-8">{t('contact_info_title')}</h2>
 
                             <div className="space-y-6">
                                 <div className="flex items-start space-x-4">
@@ -83,7 +85,7 @@ const Contact = () => {
                                         <Mail className="h-6 w-6" />
                                     </div>
                                     <div>
-                                        <h3 className="text-lg font-semibold text-slate-800">Email</h3>
+                                        <h3 className="text-lg font-semibold text-slate-800">{t('email')}</h3>
                                         <p className="text-gray-600">kemalbeganovic77@gmail.com</p>
                                     </div>
                                 </div>
@@ -93,7 +95,7 @@ const Contact = () => {
                                         <Phone className="h-6 w-6" />
                                     </div>
                                     <div>
-                                        <h3 className="text-lg font-semibold text-slate-800">Broj telefona</h3>
+                                        <h3 className="text-lg font-semibold text-slate-800">{t('phone')}</h3>
                                         <p className="text-gray-600">+387 062 890 153</p>
                                     </div>
                                 </div>
@@ -103,18 +105,16 @@ const Contact = () => {
                                         <MapPin className="h-6 w-6" />
                                     </div>
                                     <div>
-                                        <h3 className="text-lg font-semibold text-slate-800">Lokacija</h3>
+                                        <h3 className="text-lg font-semibold text-slate-800">{t('location')}</h3>
                                         <p className="text-gray-600">72250 Vitez</p>
                                     </div>
                                 </div>
-
                             </div>
 
                             <div className="mt-8 p-6 bg-gradient-to-r from-violet-400/10 to-fuchsia-600/10 rounded-lg">
-                                <h3 className="text-lg font-semibold text-slate-800 mb-2">Hitno javljanje</h3>
+                                <h3 className="text-lg font-semibold text-slate-800 mb-2">{t('contact_urgent_title')}</h3>
                                 <p className="text-gray-600">
-                                    Inače odgovorim u roku 24 sata, u slučaju hitne situacija nazovite na broj.
-                                    Za kontakt koristite aplikaciju Whatsapp ili Viber!
+                                    {t('contact_urgent_desc')}
                                 </p>
                             </div>
                         </motion.div>

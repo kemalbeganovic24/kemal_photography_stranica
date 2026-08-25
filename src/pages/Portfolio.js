@@ -1,14 +1,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Header from '../components/Header';
+import { useTranslation } from 'react-i18next'; // 1. Uvoz kuke
 import Footer from '../components/Footer';
 import EventCard from '../components/EventCard';
 
 const Portfolio = () => {
+    const { t } = useTranslation();
     const allEvents = [
         {
+            id: 'amar_kanita_2026',
+            title: 'Amar & Kanita',
+            description: '',
+            date: '22.08.2026.',
+            location: 'Vitez, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/amarkanitacover.jpg',
+            imageCount: 15,
+        },
+        {
+            id: 'elvir_ilhana_2026',
+            title: 'Elvir & Ilhana',
+            description: '',
+            date: '15.08.2026.',
+            location: 'Busovača, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaelvircover.jpg',
+            imageCount: 8,
+        },
+        {
             id: 'adnan_i_asja_2026',
-            title: 'Adnan & Asja Svadba',
+            title: 'Adnan & Asja',
             description: '',
             date: '07.08.2026.',
             location: 'Zenica, BiH',
@@ -17,7 +37,7 @@ const Portfolio = () => {
         },
         {
             id: 'farma-lavandi2026',
-            title: 'Farma Lavandi',
+            title: t('events_data.farmalavandi.title'),
             description: '',
             date: '26.07.2026.',
             location: 'Visoko, BiH',
@@ -26,7 +46,7 @@ const Portfolio = () => {
         },
         {
             id: 'smotra-bzkodvitez-2026',
-            title: '18. Međunarodna smotra Vitez',
+            title: t('events_data.18smotra.title'),
             description: '',
             date: '22.07.2026.',
             location: 'Vitez, BiH',
@@ -35,7 +55,7 @@ const Portfolio = () => {
         },
         {
             id: 'ena-sesija-slikanja2026',
-            title: 'Ena sesija slikanja',
+            title: t('events_data.ena_sesija.title'),
             description: '',
             date: '14.05.2026.',
             location: 'Kopenhagen, Danska',
@@ -44,7 +64,7 @@ const Portfolio = () => {
         },
         {
             id: 'smotra-folklora-turbe-2026',
-            title: 'Smotra folklra Turbe 2026',
+            title: t('events_data.smotraturbe2026.title'),
             description: '',
             date: '04.07.2026.',
             location: 'Turbe-Travnik, BiH',
@@ -53,54 +73,54 @@ const Portfolio = () => {
         },
         {
             id: 'Nyhavn',
-            title: 'Nyhavn Kopenhagen',
+            title: t('events_data.nyhavnkopenhagen2026.title'),
             description: 'Nyhavn Kopenhagen',
             date: '10.05.2026.',
-            location: 'Kopenhagen, Danska',
+            location: t('events_data.nyhavnkopenhagen2026.location'),
             coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/nyhavn_cover.JPG',
             imageCount: 52,
         },
         {
             id: 'Grad-Kopenhagen',
-            title: 'Grad Kopenhagen',
+            title: t('events_data.gradkopenhagen2026.title'),
             description: 'Grad Kopenhagen',
             date: '10.05.2026.',
-            location: 'Kopenhagen, Danska',
+            location: t('events_data.gradkopenhagen2026.location'),
             coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/kopenhagen1_cover.JPG',
             imageCount: 19,
         },
         {
             id: 'Centar-Kopenhagena',
-            title: 'Centar Grada Kopenhagena',
+            title: t('events_data.centargradakopenhagena2026.title'),
             description: 'Centar grada Kopenhagen',
             date: '10.05.2026.',
-            location: 'Kopenhagen, Danska',
+            location: t('events_data.centargradakopenhagena2026.location'),
             coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/kopenhagen2_cover.JPG',
             imageCount: 27,
         },
         {
             id: 'tivoli-gardens-cuvari-2026',
-            title: 'Tivoli Gardens ',
+            title: t('events_data.tivoliyggardens2026.title'),
             description: 'Tivoli Youth Guard - Omladinska garda',
             date: '10.05.2026.',
-            location: 'Kopenhagen, Danska',
+            location: t('events_data.tivoliyggardens2026.location'),
             coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/tivoliguards_cover.JPG',
 
             imageCount: 12,
         },
         {
             id: 'tivoli-gardens-kopenhagen-2026',
-            title: 'Tivoli Gardens',
+            title: t('events_data.tivoligarden2026.title'),
             description: '',
             date: '10.05.2026.',
-            location: 'Kopenhagen, Danska',
+            location: t('events_data.tivoligarden2026.location'),
             coverImage:  'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/tivoli_cover.JPG',
 
             imageCount: 26,
         },
         {
             id: 'ednan-baltic-sesija-2026',
-            title: 'Ednan Baltić - sesija slikanja',
+            title: t('events_data.baltaslikanje26.title'),
             description: '',
             date: '31.05.2026.',
             location: 'Vitez, BiH',
@@ -109,7 +129,7 @@ const Portfolio = () => {
         },
         {
             id: 'tradicionalno_bajramsko_sijelo_nek_mirisu_avlije_2026',
-            title: 'Tradicionlano Bajramsko sijelo "Nek mirišu avlije"',
+            title: t('events_data.tradicionalnibajramskosijelo_nma2026.title'),
             description: '',
             date: '29.05.2026.',
             location: 'Vitez, BiH',
@@ -118,7 +138,7 @@ const Portfolio = () => {
         },
         {
             id: 'matura-msst2026',
-            title: 'Matura 2026. Mješovite srednje škole Travnik',
+            title: t('events_data.prom-msst2026.title'),
             description: '',
             date: '23.05.2026.',
             location: 'Travnik, BiH',
@@ -127,7 +147,7 @@ const Portfolio = () => {
         },
         {
             id: 'ahmed-varupa-matura-msst2026',
-            title: 'Ahmed Varupa Matura 2026',
+            title: t('events_data.ahmedvarupamatura2026.title'),
             description: '',
             date: '23.05.2026.',
             location: 'Travnik, BiH',
@@ -136,7 +156,7 @@ const Portfolio = () => {
         },
         {
             id: 'amila-pezer-matura-msst2026',
-            title: 'Amila Pezer Matura 2026',
+            title: t('events_data.amilapezermatura2026.title'),
             description: '',
             date: '23.05.2026.',
             location: 'Etno selo Čardaci Vitez, Travnik, BiH',
@@ -145,7 +165,7 @@ const Portfolio = () => {
         },
         {
             id: 'amila-dajic-matura-msst2026',
-            title: 'Amila Dajić Matura 2026',
+            title: t('events_data.amiladajicmatura2026.title'),
             description: '',
             date: '29.04.2026.',
             location: 'Travnik, BiH',
@@ -154,7 +174,7 @@ const Portfolio = () => {
         },
         {
             id: 'edin-suljevic-matura-msst2026',
-            title: 'Edin Suljević Matura 2026',
+            title: t('events_data.edinsuljevicmatura2026.title'),
             description: '',
             date: '23.05.2026.',
             location: 'Etno selo Čardaci Vitez, Travnik, BiH',
@@ -163,7 +183,7 @@ const Portfolio = () => {
         },
         {
             id: 'edna-tulum-matura-mseus2026',
-            title: 'Edna Tulum Matura 2026',
+            title: t('events_data.ednatulummatura2026.title'),
             description: '',
             date: '22.05.2026.',
             location: 'Travnik, BiH',
@@ -172,7 +192,7 @@ const Portfolio = () => {
         },
         {
             id: 'matura-msts2026',
-            title: 'Matura 2026. Mješovite srednje tehničke škole Travnik',
+            title: t('events_data.prom-mstsT2026.title'),
             description: '',
             date: '16.05.2026.',
             location: 'Travnik, BiH',
@@ -182,7 +202,7 @@ const Portfolio = () => {
 
         {
             id: 'amar-hodzic-matura-msts2026',
-            title: 'Amar Hodžić Matura 2026',
+            title: t('events_data.amarhodzicmatura2026.title'),
             description: '',
             date: '16.05.2026.',
             location: 'Travnik, BiH',
@@ -191,7 +211,7 @@ const Portfolio = () => {
         },
         {
             id: 'dan-otvorenih-vrata-univerziteta-u-zenici-2026',
-            title: 'Dan otvorenih vrata Univerziteta u Zenici 2026',
+            title: t('events_data.danotvorenihvrataptf2026.title'),
             description: '',
             date: '29.04.2026.',
             location: 'Kampus Univerziteta u Zenici, BiH',
@@ -550,10 +570,10 @@ const Portfolio = () => {
                         transition={{ duration: 0.8 }}
                     >
                         <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
-                            Portfolio / Galerija slika
+                            {t('portfolio_title')}
                         </h1>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Pogledajte sva izadnja koje sam izdvojio za Vas!
+                            {t('portfolio_subtitle')}
                         </p>
                     </motion.div>
                 </div>

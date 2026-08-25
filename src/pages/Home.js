@@ -7,42 +7,39 @@ import { useTranslation } from 'react-i18next'; // <-- 1. UVOZIMO PRIJEVOD
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import EventCard from '../components/EventCard';
-import Pozadina from '../assets/pozadina.jpg';
+import Pozadina from '../assets/pozadinskaslika2026.jpeg';
 
 const Home = () => {
     const { t } = useTranslation(); // <-- 2. AKTIVIRAMO PRIJEVOD
 
     const featuredEvents = [
         {
+            id: 'amar_kanita_2026',
+            title: 'Amar & Kanita',
+            description: '',
+            date: '22.08.2026.',
+            location: 'Vitez, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/amarkanitacover.jpg',
+            imageCount: 15,
+        },
+        {
+            id: 'elvir_ilhana_2026',
+            title: 'Elvir & Ilhana',
+            description: '',
+            date: '15.08.2026.',
+            location: 'Busoavača, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaelvircover.jpg',
+            imageCount: 8,
+        },
+        {
             id: 'adnan_i_asja_2026',
-            title: 'Adnan & Asja Svadba',
+            title: 'Adnan & Asja',
             description: '',
             date: '07.08.2026.',
             location: 'Zenica, BiH',
             coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/IMG_0405.jpg',
             imageCount: 12,
         },
-        {
-            id: 'farma-lavandi2026',
-            title: 'Farma Lavandi',
-            description: '',
-            date: '26.07.2026.',
-            location: 'Visoko, BiH',
-            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/lavandacover.jpg',
-            imageCount: 6,
-        },
-        {
-            id: 'smotra-bzkodvitez-2026',
-            title: '18. Međunarodna smotra Vitez',
-            description: '',
-            date: '22.07.2026.',
-            location: 'Vitez, BiH',
-            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/smotrabzk2026_cover.jpg',
-            imageCount: 153,
-        },
-
-
-
     ];
 
     const trackPortfolioClick = () => {
