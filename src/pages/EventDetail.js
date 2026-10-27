@@ -12,7 +12,7 @@ const EventDetail = () => {
 
     const eventData = {
         'kerim_i_adna_2026': {
-            title: 'Almir & Monika',
+            title: 'Kerim & Adna',
             description: '',
             date: '24.10.2026.',
             location: 'Zenica, BiH',
