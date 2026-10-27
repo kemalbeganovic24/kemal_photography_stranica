@@ -9,6 +9,24 @@ const Portfolio = () => {
     const { t } = useTranslation();
     const allEvents = [
         {
+            id: 'kerim_i_adna_2026',
+            title: 'Kerim & Adna',
+            description: '',
+            date: '24.10.2026.',
+            location: 'Zenica, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ak2-24.jpg',
+            imageCount: 20,
+        },
+        {
+            id: 'almir_i_monika_2026',
+            title: 'Almir & Monika',
+            description: '',
+            date: '20.09.2026.',
+            location: 'Vitez, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/almirkm-1.jpg',
+            imageCount: 8,
+        },
+        {
             id: 'amar_kanita_2026',
             title: 'Amar & Kanita',
             description: '',

@@ -14,6 +14,24 @@ const Home = () => {
 
     const featuredEvents = [
         {
+            id: 'kerim_i_adna_2026',
+            title: 'Kerim & Adna',
+            description: '',
+            date: '24.10.2026.',
+            location: 'Zenica, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ak2-24.jpg',
+            imageCount: 20,
+        },
+        {
+            id: 'almir_i_monika_2026',
+            title: 'Almir & Monika',
+            description: '',
+            date: '20.09.2026.',
+            location: 'Vitez, BiH',
+            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/almirkm-1.jpg',
+            imageCount: 8,
+        },
+        {
             id: 'amar_kanita_2026',
             title: 'Amar & Kanita',
             description: '',
@@ -22,24 +40,8 @@ const Home = () => {
             coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/amarkanitacover.jpg',
             imageCount: 15,
         },
-        {
-            id: 'elvir_ilhana_2026',
-            title: 'Elvir & Ilhana',
-            description: '',
-            date: '15.08.2026.',
-            location: 'Busoavača, BiH',
-            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/ilhanaelvircover.jpg',
-            imageCount: 8,
-        },
-        {
-            id: 'adnan_i_asja_2026',
-            title: 'Adnan & Asja',
-            description: '',
-            date: '07.08.2026.',
-            location: 'Zenica, BiH',
-            coverImage: 'https://loojmdgwtbcuphthylls.supabase.co/storage/v1/object/public/portfolio/IMG_0405.jpg',
-            imageCount: 12,
-        },
+
+
     ];
 
     const trackPortfolioClick = () => {
